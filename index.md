@@ -86,7 +86,7 @@ body{
 <div class="dropdown">
     <button class="dropbtn">
       <a>actions</a>
-      <a style="font-size:13px;">▼</a>
+      <a style="font-size:13px;padding-left:15px;">▼</a>
     </button>
   <div class="dropdown-content">
     <a href="#"><img src="Edit.png">Edit</a>
@@ -98,7 +98,7 @@ body{
 <div class="dropdown">
     <button class="dropbtn">
       <a>actions speak louder than words</a>
-      <a style="font-size:13px;">▼</a>
+      <a style="font-size:13px;padding-left:15px;">▼</a>
     </button>
   <div class="dropdown-content">
     <a href="#"><img src="Edit.png">Edit</a>
@@ -110,7 +110,7 @@ body{
 <div class="dropdown">
     <button class="dropbtn">
       <a>actions</a>
-      <a style="font-size:13px;">▼</a>
+      <a style="font-size:13px;padding-left:15px;">▼</a>
     </button>
   <div class="dropdown-content">
     <a href="#"><img src="Edit.png">Edit every field in the database with one click</a>
