@@ -73,6 +73,7 @@ body{
 .dropdown-content a:hover {
     background-color: #B1DFF0;
 }
+.dropdown-content a:hover img {background-color:#B1DFF0}
 .dropdown-content img:hover {background-color:B1DFF0;}
 .dropdown:hover .dropdown-content {display: block;}
 
