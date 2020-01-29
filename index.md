@@ -83,7 +83,7 @@ body{
 <body>
 
 <h2>SplitButton Design</h2>
-<p>Experiment wiht the buttons below to see UI behavior in different scenarios</p>
+<p>Experiment with the buttons below to see UI behavior in different scenarios</p>
 
 <div class="dropdown">
     <button class="dropbtn">
