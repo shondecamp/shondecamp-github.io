@@ -73,8 +73,9 @@ body{
 .dropdown-content a:hover {
     background-color: #B1DFF0;
 }
+.dropdown-content img:hover {background-color:B1DFF0;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropdown-content img{background-color:B1DFF0;}
+
 .dropdown:hover .dropbtn {background-color: #003772;}
 </style>
 </head>
