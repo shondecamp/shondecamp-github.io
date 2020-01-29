@@ -51,7 +51,7 @@ body{
   position: relative;
   display: inline-block;
   margin-top:20px;
-  clear:left;
+ 
 
 }
 .dropdown-content {
