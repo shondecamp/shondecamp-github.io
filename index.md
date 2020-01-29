@@ -37,6 +37,7 @@ body{
   align-content: center;
   margin:0;
   min-width:160px;
+  height:60px;
 
 }
 .dropbtn a{
@@ -46,11 +47,13 @@ body{
 }
 .dropbtn p{
     flex-grow:2;
+    line-height:60px;
 }
 .dropdown {
   position: relative;
   display: inline-block;
   margin-top:20px;
+  height:60px;
  
 
 }
