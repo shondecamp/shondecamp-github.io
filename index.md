@@ -34,6 +34,7 @@ body{
   display:flex;
   align-items:center;
   justify-content: space-between;
+  align-content: center;
   margin:0;
   min-width:160px;
 
@@ -76,6 +77,9 @@ body{
     width: 16px;
     padding-right: 10px;
 }
+dropdown-content img:hover{
+    background-color: #B1DFF0;
+}
 .dropdown-content a:hover {
     background-color: #B1DFF0;
 }
@@ -86,7 +90,7 @@ body{
 <body>
 
 <h2>SplitButton Design</h2>
-<p>Experiment wiht the buttons below to see UI behavior in different scenarios</p>
+<p>Experiment with the buttons below to see UI behavior in different scenarios</p>
 
 <div class="dropdown">
     <button class="dropbtn">
