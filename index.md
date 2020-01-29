@@ -48,6 +48,8 @@ body{
 .dropbtn p{
     flex-grow:2;
     line-height:60px;
+    display:flex;
+    align-content: center;
 }
 .dropdown {
   position: relative;
