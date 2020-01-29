@@ -69,6 +69,7 @@ body{
 .dropdown-content img{
     width: 16px;
     padding-right: 10px;
+    background-color:#003772;
 }
 .dropdown-content a:hover {
     background-color: #B1DFF0;
