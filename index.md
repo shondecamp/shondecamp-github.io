@@ -23,7 +23,7 @@ body{
 .dropbtn {
   background-color: #014085;
   color: white;
-  padding: 0px 15px;
+  padding: 15px 0px 15px 20px;
   font-family:'Open Sans';
   font-size: 16px;
   font-weight:bold;
@@ -31,33 +31,22 @@ body{
   border-radius:4px;
   text-transform:uppercase; 
   cursor:pointer;
-  display:flex;
-  align-items:center;
-  justify-content: space-between;
-  align-content: center;
   margin:0;
   min-width:160px;
-  height:60px;
+  max-width:500px;
+  display:table-cell;
+  min-height:60px;
 
 }
 .dropbtn a{
-    padding-left: 15px;
-    font-size: 13px;
-    flex-grow:1;
-}
-.dropbtn p{
-    flex-grow:2;
-    line-height:60px;
-    display:flex;
-    align-content: center;
+    padding: 0px 20px 0px 0px;
+    font-size: 16px;
+    
 }
 .dropdown {
   position: relative;
   display: inline-block;
   margin-top:20px;
-  height:60px;
- 
-
 }
 .dropdown-content {
   display: none;
@@ -69,7 +58,6 @@ body{
   border: 1px solid lightgrey;
   border-radius:0px 0px 4px 4px;
   padding:6px 0px;
-  white-space:nowrap;
 }
 .dropdown-content a {
   padding: 10px 16px;
@@ -82,9 +70,6 @@ body{
     width: 16px;
     padding-right: 10px;
 }
-dropdown-content img:hover{
-    background-color: #B1DFF0;
-}
 .dropdown-content a:hover {
     background-color: #B1DFF0;
 }
@@ -95,12 +80,12 @@ dropdown-content img:hover{
 <body>
 
 <h2>SplitButton Design</h2>
-<p>Experiment with the buttons below to see UI behavior in different scenarios</p>
+<p>Experiment wiht the buttons below to see UI behavior in different scenarios</p>
 
 <div class="dropdown">
     <button class="dropbtn">
-      <p>actions</p>
-      <a>▼</a>
+      <a>actions</a>
+      <a style="font-size:13px;">▼</a>
     </button>
   <div class="dropdown-content">
     <a href="#"><img src="Edit.png">Edit</a>
@@ -111,8 +96,8 @@ dropdown-content img:hover{
 
 <div class="dropdown">
     <button class="dropbtn">
-      <p>actions speak louder than words</p>
-      <a>▼</a>
+      <a>actions speak louder than words</a>
+      <a style="font-size:13px;">▼</a>
     </button>
   <div class="dropdown-content">
     <a href="#"><img src="Edit.png">Edit</a>
@@ -123,8 +108,8 @@ dropdown-content img:hover{
 
 <div class="dropdown">
     <button class="dropbtn">
-      <p>actions</p>
-      <a>▼</a>
+      <a>actions</a>
+      <a style="font-size:13px;">▼</a>
     </button>
   <div class="dropdown-content">
     <a href="#"><img src="Edit.png">Edit every field in the database with one click</a>
