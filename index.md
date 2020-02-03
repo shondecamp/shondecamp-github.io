@@ -58,6 +58,7 @@ body{
   border: 1px solid lightgrey;
   border-radius:0px 0px 4px 4px;
   padding:6px 0px;
+  top:56px;
 }
 .dropdown-content a {
   padding: 10px 16px;
@@ -69,12 +70,14 @@ body{
 .dropdown-content img{
     width: 16px;
     padding-right: 10px;
+    filter: grayscale(100%);
 }
 .dropdown-content a:hover {
-    background-color: #B1DFF0;
+    background-color: ##F2F5F9;
+    color:#014085;
 }
-.dropdown-content a:hover img {background-color:#B1DFF0}
-.dropdown-content img:hover {background-color:B1DFF0;}
+.dropdown-content a:hover img {background-color:#B1DFF0; filter:grayscale(0%);}
+.dropdown-content img:hover {background-color:#B1DFF0;}
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #003772;}
