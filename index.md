@@ -73,10 +73,10 @@ body{
     filter: grayscale(100%);
 }
 .dropdown-content a:hover {
-    background-color: ##F2F5F9;
+    background-color: #F2F5F9;
     color:#014085;
 }
-.dropdown-content a:hover img {background-color:#B1DFF0; filter:grayscale(0%);}
+.dropdown-content a:hover img {background-color:#F2F5F9; filter:grayscale(0%);}
 .dropdown-content img:hover {background-color:#B1DFF0;}
 .dropdown:hover .dropdown-content {display: block;}
 
