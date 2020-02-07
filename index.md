@@ -52,7 +52,7 @@ height:38px;
     justify-content: space-between;
     width:90%;
     padding: 87px 32px 0px 32px;
-    position:static;
+    position:relative;
 }
 .title a{
   color:#414B58;
