@@ -59,6 +59,7 @@ body{
 .breadcrumbs a{
     color: #414A56;
     padding:10px;
+    font-family:'Open Sans';
 }
 .breadcrumbs img{
     height: 14px;
