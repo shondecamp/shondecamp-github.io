@@ -103,7 +103,7 @@ height:38px;
 .meta{
     width:100%;
     padding:0px 32px;
-    margin:5px 0px 0px 0px;
+    margin:70px 0px 0px 0px;
     display: block;
     position:static;
 }
