@@ -1,6 +1,20 @@
 
 <html>
 <style>
+@font-face {
+  font-family: Open Sans;
+  src: url(OpenSans-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Open Sans;
+  src: url(OpenSans-Light.ttf);
+  font-weight: light;
+}
+@font-face {
+  font-family: Open Sans;
+  src: url(OpenSans-Regular.ttf);
+}
 body{
     font-family: "Open Sans",sans-serif;
     margin:0;
