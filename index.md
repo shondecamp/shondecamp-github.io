@@ -46,6 +46,7 @@ height:38px;
 .title{
     height:58px;
     font-size:32px;
+    font-family:'Open Sans';
     margin:0;
     color: #414B58;
     display:inline-block;
