@@ -102,8 +102,8 @@ height:38px;
 }
 .meta{
     width:100%;
-    padding:100px 32px;
-    margin:0;
+    padding:0px 32px;
+    margin:100px 0px 0px 0px;
     display: block;
     position:static;
 }
