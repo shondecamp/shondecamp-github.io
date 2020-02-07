@@ -48,7 +48,7 @@ height:38px;
     font-size:32px;
     margin:0;
     color: #414B58;
-    display:flex;
+    display:inline-block;
     justify-content: space-between;
     width:90%;
     padding: 87px 32px 0px 32px;
@@ -57,11 +57,13 @@ height:38px;
 .title a{
   color:#414B58;
   text-decoration:none;
+  float:left;
 }
 .buttoncontainer{
   height:50px;
   display:flex;
   align-items:center;
+  float:right;
 }
 .buttonprimary{
   height:50px;
