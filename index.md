@@ -4,6 +4,19 @@
 h1{
   display:none;
 }
+.container-lg {
+  max-width: 5000px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.px-3 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.my-5 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
 @font-face {
   font-family: Open Sans;
   src: url(OpenSans-Bold.ttf);
