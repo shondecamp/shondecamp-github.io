@@ -17,6 +17,7 @@ body{
     border-bottom: 1px solid #414A56;
     padding:0px 14px;
     z-index:999;
+    background:white;
 }
 .breadcrumbs{
     display:flex;
