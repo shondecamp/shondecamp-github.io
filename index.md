@@ -1,6 +1,9 @@
 
 <html>
 <style>
+h1{
+  display:none;
+}
 @font-face {
   font-family: Open Sans;
   src: url(OpenSans-Bold.ttf);
