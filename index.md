@@ -102,11 +102,10 @@ height:38px;
 }
 .meta{
     width:100%;
-    padding:0px 32px;
+    padding:100px 32px;
     margin:0;
     display: block;
-    position:relative:
-    top:500px;
+    position:static;
 }
 .formfieldwrapper{
     width:100%;
