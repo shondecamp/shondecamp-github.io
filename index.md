@@ -163,7 +163,7 @@ height:38px;
     border:none;
     background:transparent;
     position:relative;
-    top:3px;
+    top:-1px;
     left:19px;
     outline:none;
     width:400px;
