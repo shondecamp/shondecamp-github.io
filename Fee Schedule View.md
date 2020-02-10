@@ -526,7 +526,6 @@ tr:nth-child(even):hover img{
                       Add Fee Item
                  </button>
             </div>
-       </div>
             <table>
             <tr>
                 <th>Company</th>
