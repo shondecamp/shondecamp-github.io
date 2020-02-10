@@ -395,7 +395,7 @@ input:checked + .slider:before {
     <div class="title">
         <a>Edit - TL_PC_REN</a>
         <div class="buttoncontainer">
-            <button class="buttonsecondary" href="Fee Schedule View.htm">cancel</button>
+            <button class="buttonsecondary" href="Fee Schedule View.md">cancel</button>
             <button class="buttonprimary">save</button>
         </div>
     </div>
