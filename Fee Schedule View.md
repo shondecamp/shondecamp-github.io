@@ -398,16 +398,20 @@
     padding: 0px 0px 0px 24px;
     width:100%;
 }
-tablecontainer{
+.tablecontainer{
     margin:32px;
     box-shadow:0px 0px 5px 3px lightgrey;
     padding:10px 0px;
+    width:100%;
 }
 table {
     font-family: 'Open Sans';
     border-collapse: collapse;
     width: 100%;
     color:#4C4C4C;
+}
+.markdown-body table {
+    display:inline-table;
 }
 .markdown-body table tr{
     border-top:none;
@@ -422,7 +426,7 @@ thead{
 th{
     text-align:left;
     text-transform:uppercase;
-    font-weight:lighter;
+    font-weight:100 !important;
     font-size:12px;
     padding:0px 5px 0px 32px;
 }
