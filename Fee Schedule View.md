@@ -409,6 +409,9 @@ table {
     width: 100%;
     color:#4C4C4C;
   }
+table, th, td {
+    border:none;
+}
 thead{
     width: 100%;
 }
