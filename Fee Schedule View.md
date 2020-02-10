@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 
 <html>
@@ -401,10 +401,12 @@ table {
   width: 100%;
   font-size:14px;
   color:#4C4C4C;
+  border:none;
 }
 th{
 text-transform:uppercase;
-font-weight:lighter;
+font-family:'Open Sans';
+font-weight:light;
 }
 td, th {
   border-bottom: 1px solid #E7E5E4;
@@ -465,7 +467,7 @@ tr:nth-child(even):hover img{
         <div class="title">
             <a>TL_PC_REN<button class="tinybutton" style="position:relative;top:0px;"><img src="Edit.png">Edit Fee Schedule</button></a>
         </div>
-        <div class="meta" style="margin:0px;">
+        <div class="meta">
             <div class="subtitle">
                 Plumbing contractor renewal fees
             </div>
@@ -517,7 +519,7 @@ tr:nth-child(even):hover img{
             </div>
         </div>
         <div class="tablecontainer">
-            <h2>Fee Items <button class="tinybutton" style="right:60px;"><img src="NewVersion.png" style="visibility:visible;height:12px;padding-right:5px;">Add Fee Item</button></h2>
+            <h2>Fee Items <button class="tinybutton" style="right:60px; font-weight:normal;"><img src="NewVersion.png" style="visibility:visible;height:12px;padding-right:5px;">Add Fee Item</button></h2>
         
             <table>
             <tr>
