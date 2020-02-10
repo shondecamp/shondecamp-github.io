@@ -401,8 +401,10 @@ table {
   width: 100%;
   font-size:14px;
   color:#4C4C4C;
-  border:none;
 }
+tbody{
+  border:none;
+  width:100%;
 th{
 text-transform:uppercase;
 font-family:'Open Sans';
