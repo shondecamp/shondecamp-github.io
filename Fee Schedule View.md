@@ -519,7 +519,7 @@ tr:nth-child(even):hover img{
             </div>
         </div>
         <div class="tablecontainer">
-            <div class="tabletitle>
+            <div class="tabletitle">
                  Fee Items 
                  <button class="tinybutton" style="right:60px; font-weight:normal;">
                       <img src="NewVersion.png" style="visibility:visible;height:12px;padding-right:5px;">
