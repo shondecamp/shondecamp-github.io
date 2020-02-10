@@ -409,6 +409,9 @@ table {
     width: 100%;
     color:#4C4C4C;
 }
+.markdown-body table tr{
+    border-top:none;
+}
 .markdown-body table th, .markdown-body table td {
     border:none;
 }
