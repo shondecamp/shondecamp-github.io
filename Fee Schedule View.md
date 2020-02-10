@@ -405,9 +405,11 @@ table {
 tbody{
   border:none;
   width:100%;
+}
+th{
 text-transform:uppercase;
 font-family:'Open Sans';
-font-weight:light;
+font-weight:lighter;
 }
 td, th {
   border-bottom: 1px solid #E7E5E4;
