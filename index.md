@@ -422,7 +422,7 @@ input:checked + .slider:before {
                 <label>enabled</label>
                 <br>
                 <label class="switch">
-                <input type="checkbox">
+                <input type="checkbox" onclick="this.select()">
                 <span class="slider"></span>
                 </label>
             </div> 
@@ -431,14 +431,14 @@ input:checked + .slider:before {
             <div class="input">
                 <label>expired</label>
                 <br>
-                <input value="01/31/2020">
+                <input value="01/31/2020" onclick="this.select()">
             </div>
         </div> 
         <div class="formfieldwrapper">  
             <div class="input">
                 <label>available</label>
                 <br>
-                <input value="01/31/2020">
+                <input value="01/31/2020" onclick="this.select()">
             </div>
         </div> 
         <div class="freetextwrapper">  
