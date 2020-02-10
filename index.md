@@ -395,8 +395,8 @@ input:checked + .slider:before {
     <div class="title">
         <a>Edit - TL_PC_REN</a>
         <div class="buttoncontainer">
-            <button class="buttonsecondary" href="https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View#fee-items-add-fee-item">cancel</button>
-            <button class="buttonprimary" href="https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View#fee-items-add-fee-item">save</button>
+            <button class="buttonsecondary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';" target="_blank">cancel</button>
+            <button class="buttonprimary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';" target="_blank">save</button>
         </div>
     </div>
     <div class="meta">
