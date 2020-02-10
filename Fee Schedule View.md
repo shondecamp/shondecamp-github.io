@@ -408,9 +408,13 @@ table {
     border-collapse: collapse;
     width: 100%;
     color:#4C4C4C;
-  }
+}
+.markdown-body table th, .markdown-body table td {
+    border:none;
+}
 thead{
     width: 100%;
+    border-bottom: 3px solid #E7E5E4;
 }
 th{
     text-align:left;
@@ -418,7 +422,6 @@ th{
     font-weight:lighter;
     font-size:12px;
     padding:0px 5px 0px 32px;
-    border:none;
 }
 tbody{
     width:100%;
@@ -430,8 +433,8 @@ tr{
 }
 tbody tr{
     background-color: #F9FAFB;
-    border-bottom:1px solid #E7E5E4;
     cursor: pointer;
+    border-bottom:1px solid #E7E5E4;
 }
 tbody tr img{
     visibility:hidden;
