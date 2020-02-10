@@ -398,57 +398,62 @@
     padding: 0px 0px 0px 24px;
     width:100%;
 }
-table {
-  font-family: 'Open Sans';
-  border-collapse: collapse;
-  width: 100%;
-  font-size:14px;
-  color:#4C4C4C;
+tablecontainer{
+    margin:32px;
+    box-shadow:0px 0px 5px 3px lightgrey;
+    padding:10px 0px;
 }
-tbody{
-  border:none;
-  width:100%;
+table {
+    font-family: 'Open Sans';
+    border-collapse: collapse;
+    width: 100%;
+    color:#4C4C4C;
+  }
+thead{
+    width: 100%;
 }
 th{
-text-transform:uppercase;
-font-family:'Open Sans';
-font-weight:lighter;
+    text-align:left;
+    text-transform:uppercase;
+    font-weight:lighter;
+    font-size:12px;
+    padding:0px 5px 0px 32px;
 }
-td, th {
-  border-bottom: 1px solid #E7E5E4;
-  text-align: left;
-  padding:0px 0px 0px 20px;
+tbody{
+    width:100%;
+    display:table-row-group;
 }
-tr {
-cursor:pointer;
-height:37px;
+tr{
+    font-size:14px;
+    height:37px;
 }
-tr:hover{
-background-color:#DBE2EA;
+tbody tr{
+    background-color: #F9FAFB;
+    border-bottom:1px solid #E7E5E4;
+    cursor: pointer;
 }
-
-tr:nth-child(even) {
-  background-color: #F9FAFB;
-}
-tr:nth-child(even):hover{
-background-color:#DBE2EA;
-}
-tr:nth-child(even):hover img{
-    visibility:visible;
-}
-.tablecontainer tr:hover img{
-    visibility:visible;
-}
-.tablecontainer{
-    margin:32px;
-    padding:0px;
-    box-shadow:0px 0px 5px 3px lightgrey;
-    padding:12px 0px;
-}
-.tablecontainer img{
+tbody tr img{
+    visibility:hidden;
     height:16px;
     padding:0px 32px 0px 0px;
-    visibility:hidden;
+}
+tbody tr:hover{
+    background-color:#D4E0EC;
+}
+tbody tr:hover img{
+    visibility:visible;
+}
+tbody tr:nth-child(even):hover img{
+    visibility:visible;
+}
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+tbody tr:nth-child(even):hover{
+    background-color:#D4E0EC;
+}
+td {
+    padding:0px 5px 0px 32px;
 }
 
     </style>
@@ -533,49 +538,43 @@ tr:nth-child(even):hover img{
                  </button>
             </div>
             <table>
-            <tr>
-                <th>Company</th>
-                <th>Contact</th>
-                <th>Country</th>
-                <th></th>
-            </tr>
-            <tr>
-                <td>Alfreds Futterkiste</td>
-                <td>Maria Anders</td>
-                <td>Germany</td>
-                <td><img src="Trash.png"></td>
-            </tr>
-            <tr>
-                <td>Centro comercial Moctezuma</td>
-                <td>Francisco Chang</td>
-                <td>Mexico</td>
-                <td><img src="Trash.png"></td>
-            </tr>
-            <tr>
-                <td>Ernst Handel</td>
-                <td>Roland Mendel</td>
-                <td>Austria</td>
-                <td><img src="Trash.png"></td>
-            </tr>
-            <tr>
-                <td>Island Trading</td>
-                <td>Helen Bennett</td>
-                <td>UK</td>
-                <td><img src="Trash.png"></td>
-            </tr>
-            <tr>
-                <td>Laughing Bacchus Winecellars</td>
-                <td>Yoshi Tannamuri</td>
-                <td>Canada</td>
-                <td><img src="Trash.png"></td>
-            </tr>
-            <tr>
-                <td>Magazzini Alimentari Riuniti</td>
-                <td>Giovanni Rovelli</td>
-                <td>Italy</td>
-                <td><img src="Trash.png"></td>
-            </tr>
-            </table>
+            <thead>
+                <tr>
+                    <th>fee item code</th>
+                    <th>description</th>
+                    <th>fee amount</th>
+                    <th>fee formula</th>
+                    <th>status</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>12345</td>
+                    <td>some beautify item</td>
+                    <td>$10</td>
+                    <td>e=mc2</td>
+                    <td>enabled</td>
+                    <td><img src="Trash.png"></td>
+                </tr>
+                <tr>
+                    <td>12345</td>
+                    <td>some beautify item</td>
+                    <td>$10</td>
+                    <td>e=mc2</td>
+                    <td>enabled</td>
+                    <td><img src="Trash.png"></td>
+                </tr>
+                <tr>
+                    <td>12345</td>
+                    <td>some beautify item</td>
+                    <td>$10</td>
+                    <td>e=mc2</td>
+                    <td>enabled</td>
+                    <td><img src="Trash.png"></td>
+                </tr>
+            </tbody>
+        </table>
         </div>
     </body>
     </html>
