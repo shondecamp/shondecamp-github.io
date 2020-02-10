@@ -409,9 +409,6 @@ table {
     width: 100%;
     color:#4C4C4C;
   }
-table, th, td {
-    border:none;
-}
 thead{
     width: 100%;
 }
@@ -421,6 +418,7 @@ th{
     font-weight:lighter;
     font-size:12px;
     padding:0px 5px 0px 32px;
+    border:none;
 }
 tbody{
     width:100%;
@@ -457,6 +455,7 @@ tbody tr:nth-child(even):hover{
 }
 td {
     padding:0px 5px 0px 32px;
+    border:none;
 }
 
     </style>
