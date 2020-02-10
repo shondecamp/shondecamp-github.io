@@ -405,7 +405,6 @@ table {
 tbody{
   border:none;
   width:100%;
-th{
 text-transform:uppercase;
 font-family:'Open Sans';
 font-weight:light;
