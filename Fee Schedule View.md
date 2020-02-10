@@ -487,7 +487,7 @@ td {
             </div>
         </div>  
         <div class="title">
-            <a>TL_PC_REN<button class="tinybutton" style="position:relative;top:0px;" "window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/' "><img src="Edit.png">Edit Fee Schedule</button></a>
+            <a>TL_PC_REN<button class="tinybutton" style="position:relative;top:0px;" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/' "><img src="Edit.png">Edit Fee Schedule</button></a>
         </div>
         <div class="meta">
             <div class="subtitle">
