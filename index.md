@@ -401,10 +401,10 @@ input:checked + .slider:before {
     </div>
     <div class="meta">
         <div class="formfieldwrapper">  
-            <div class="input" onclick="this.select()">
+            <div class="input">
                 <label>fee schedule alias</label>
                 <br>
-                <input value="Plumbing contractor renewal fees">
+                <input value="Plumbing contractor renewal fees" onclick="this.select()">
             </div>
         </div> 
         <div class="formfieldwrapper">  
