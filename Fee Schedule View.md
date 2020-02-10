@@ -387,7 +387,7 @@
     font-size:18px;
     color:#414A57;
 }
-tabletitle{
+.tabletitle{
     font-family:'Open Sans';
     font-weight:bold;
     font-size:18px;
