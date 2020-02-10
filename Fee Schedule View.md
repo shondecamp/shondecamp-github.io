@@ -387,7 +387,7 @@
     font-size:18px;
     color:#414A57;
 }
-h2{
+tabletitle{
     font-family:'Open Sans';
     font-weight:bold;
     font-size:18px;
@@ -519,7 +519,7 @@ tr:nth-child(even):hover img{
             </div>
         </div>
         <div class="tablecontainer">
-            <h2>Fee Items <button class="tinybutton" style="right:60px; font-weight:normal;"><img src="NewVersion.png" style="visibility:visible;height:12px;padding-right:5px;">Add Fee Item</button></h2>
+            <div class="tabletitle>Fee Items <button class="tinybutton" style="right:60px; font-weight:normal;"><img src="NewVersion.png" style="visibility:visible;height:12px;padding-right:5px;">Add Fee Item</button></div>
         
             <table>
             <tr>
