@@ -467,7 +467,9 @@ td {
     padding:0px 5px 0px 32px;
     border:none;
 }
-
+.pointer{
+    cursor: pointer;
+}
     </style>
     <body>
         <div class="accelaheader">
@@ -479,7 +481,7 @@ td {
                 <img src="Fill 304.png">
                 <a>Draper Test</a>
                 <img src="Fill 304.png">
-                <a style=”cursor:pointer;” onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';">Fee Schedules</a>
+                <a class="pointer" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';">Fee Schedules</a>
                 
                 <img src="Fill 304.png">
                 <a>TL_PC_REN</a>
