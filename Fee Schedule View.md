@@ -478,7 +478,8 @@ td {
                 <img src="Fill 304.png">
                 <a>Draper Test</a>
                 <img src="Fill 304.png">
-                <a>Fee Schedules</a>
+                <a onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';">Fee Schedules</a>
+                
                 <img src="Fill 304.png">
                 <a>TL_PC_REN</a>
             </div>
