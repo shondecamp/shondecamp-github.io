@@ -1,17 +1,42 @@
-<!DOCTYPE html>
 <html>
-<head>
+
 <style> 
-@font-face{
-    font-family: 'interstate';
-	  src: url('Interstate-Light.otf'); 
-    font-weight:light;
-}
-@font-face{
-    font-family: 'interstate';
-    src: url('Interstate-Bold.otf');
-    font-weight:bold;
-}
+	 h1{
+      display:none;
+    }
+    .container-lg {
+      max-width: 5000px;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .px-3 {
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+    }
+    .my-5 {
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+    }
+    @font-face {
+      font-family: Open Sans;
+      src: url(OpenSans-Bold.ttf);
+      font-weight: bold;
+    }
+    @font-face {
+      font-family: Open Sans;
+      src: url(OpenSans-Light.ttf);
+      font-weight: light;
+    }
+    @font-face {
+      font-family: Open Sans;
+      src: url(OpenSans-Regular.ttf);
+    }
+    body{
+        font-family: "Open Sans",sans-serif;
+        margin:0;
+        padding:0;
+    }
+
 *,
 *:before,
 *:after {
@@ -153,7 +178,7 @@ li:hover {
     color:#014085;
 }
 li:hover img{
-    
+    background:#F2F5F9;
 }
 button [data-hover] {
     background:red;
