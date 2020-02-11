@@ -385,7 +385,7 @@ input:checked + .slider:before {
             <img src="Fill 304.png">
             <a>Draper Test</a>
             <img src="Fill 304.png">
-            <a>Fee Schedules</a>
+            <a class="pointer" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';">Fee Schedules</a>
             <img src="Fill 304.png">
             <a class="pointer" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';">TL_PC_REN</a>
             <img src="Fill 304.png">
