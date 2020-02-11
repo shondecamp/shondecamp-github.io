@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+
 <html>
 <style>
     h1{
@@ -317,7 +317,7 @@ td {
                 <button class="textbutton" style="position:relative; top:32px;"><img src="Filters.png">More Filters</button>
             </div> 
         </div>
-        <table>
+        <table onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';">
             <thead>
                 <tr>
                     <th>fee item code</th>
