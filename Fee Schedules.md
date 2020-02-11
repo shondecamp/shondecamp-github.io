@@ -224,6 +224,7 @@ table {
 }
 .markdown-body table th, .markdown-body table td {
     border:none;
+    padding: 0px 5px 0px 32px;
 }
 thead{
     width: 100%;
@@ -288,8 +289,6 @@ td {
                 <a>Draper Test</a>
                 <img src="Fill 304.png">
                 <a>Fee Schedules</a>
-                <img src="Fill 304.png">
-                <a>TL_PC_REN</a>
             </div>
             <div class="usericon">
                 <img src="Group.png">
