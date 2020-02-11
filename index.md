@@ -371,6 +371,9 @@ input:checked + .slider:before {
 .freetext textarea:focus{
     outline:1px solid #17A1D1;
 }
+.pointer{
+  cursor:pointer;
+ }
 </style>
 <body>
     <div class="accelaheader">
@@ -384,7 +387,7 @@ input:checked + .slider:before {
             <img src="Fill 304.png">
             <a>Fee Schedules</a>
             <img src="Fill 304.png">
-            <a>TL_PC_REN</a>
+            <a class="pointer" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';">TL_PC_REN</a>
             <img src="Fill 304.png">
             <a style="font-weight:bolder;">Edit TL_PC_REN</a>
         </div>
