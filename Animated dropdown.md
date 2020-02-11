@@ -33,8 +33,8 @@
     }
     body{
         font-family: "Open Sans",sans-serif;
-        margin:0;
-        padding:0;
+        margin:40;
+        padding:40;
     }
 
 *,
@@ -184,7 +184,6 @@ button [data-hover] {
     background:red;
 }
 </style>
-</head>
 <body>
 
 
