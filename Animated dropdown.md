@@ -33,8 +33,8 @@
     }
     body{
         font-family: "Open Sans",sans-serif;
-        margin:40;
-        padding:40;
+        margin:40 !important;
+        padding:40 !important;
     }
 
 *,
