@@ -417,6 +417,7 @@ table {
 }
 .markdown-body table th, .markdown-body table td {
     border:none;
+    padding: 0px 5px 0px 32px;
 }
 thead{
     width: 100%;
@@ -478,7 +479,7 @@ td {
                 <img src="Fill 304.png">
                 <a>Draper Test</a>
                 <img src="Fill 304.png">
-                <a onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';">Fee Schedules</a>
+                <a style=”cursor:pointer;” onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';">Fee Schedules</a>
                 
                 <img src="Fill 304.png">
                 <a>TL_PC_REN</a>
