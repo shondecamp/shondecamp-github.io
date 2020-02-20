@@ -503,7 +503,7 @@ td {
                     <br>
                     <div class="readonlywithbutton">
                         <a>1.5.6ABC</a>
-                        <button class="tinybutton"><img src="NewVersion.png">Create New Version</button>
+                        <button class="tinybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/NewVersion';"><img src="NewVersion.png">Create New Version</button>
                     </div>
                 </div>
             </div>
