@@ -335,8 +335,8 @@ td {
                     <th>fee schedule</th>
                     <th>fee schedule alias</th>
                     <th>version</th>
-                    <th>effective date</th>
-                    <th>disabled on date</th>
+                    <th>effective</th>
+                    <th>expires</th>
                     <th>status</th>
                     <th></th>
                 </tr>
