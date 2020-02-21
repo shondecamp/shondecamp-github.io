@@ -244,6 +244,9 @@ height:38px;
 .tinybutton:hover{
     background:#f2f5f9;
 }
+.tinybutton:hover img{
+    background:#f2f5f9;
+ }
 .readonlywrapper{
     height: 54px;
     background: transparent;
