@@ -120,12 +120,14 @@
     }
     .buttonprimary img{
         opacity:50%;
+        background:#23653d;
     }
     .buttonprimary:hover{
         background:#17532F;
     }
     .buttonprimary:hover img{
         opacity:100%;
+        background:#17532F;
     }
     .meta{
         width:100%;
