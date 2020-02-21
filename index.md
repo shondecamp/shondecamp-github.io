@@ -515,14 +515,14 @@ td {
         </div> 
         <div class="formfieldwrapper">  
             <div class="input">
-                <label>expired</label>
+                <label>effective</label>
                 <br>
                 <input value="01/31/2020" onclick="this.select()">
             </div>
         </div> 
         <div class="formfieldwrapper">  
             <div class="input">
-                <label>available</label>
+                <label>expires</label>
                 <br>
                 <input value="01/31/2020" onclick="this.select()">
             </div>
