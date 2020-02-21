@@ -473,8 +473,8 @@ td {
     <div class="title">
         <a>TL_PC_REN</a>
         <div class="buttoncontainer">
-            <button class="buttonsecondary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';" target="_blank">cancel</button>
-            <button class="buttonprimary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';" target="_blank">save</button>
+            <button class="buttonsecondary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';" target="_blank">cancel</button>
+            <button class="buttonprimary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';" target="_blank">save</button>
         </div>
     </div>
     <div class="meta">
