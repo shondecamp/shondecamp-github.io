@@ -85,7 +85,7 @@
         color: #414B58;
         display:inline-block;
         justify-content: space-between;
-        width:90%;
+        width:100%;
         padding: 87px 32px 0px 32px;
         position:relative;
     }
@@ -115,7 +115,7 @@
       cursor: pointer;
       border-radius:4px;
       padding:0px 20px 0px 20px;
-      margin: 0px 18px;
+      margin: 0px 0px 0px 18px;
       min-width:120px;
       border:none;
     }
@@ -492,6 +492,7 @@ td {
         </div>  
         <div class="title">
             <a>TL_PC_REN<button class="tinybutton" style="position:relative;top:0px;" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/' "><img src="Edit.png">Edit Fee Schedule</button></a>
+            <div class="buttoncontainer" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';">&#215</div>
         </div>
         <div class="meta">
             <div class="subtitle">
