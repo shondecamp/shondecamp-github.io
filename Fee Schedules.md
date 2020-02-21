@@ -329,7 +329,7 @@ td {
                 <button class="textbutton" style="position:relative; top:14px;"><img src="Filters.png">More Filters</button>
             </div> 
         </div>
-        <table onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';">
+        <table onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/';">
             <thead>
                 <tr>
                     <th>fee item code</th>
