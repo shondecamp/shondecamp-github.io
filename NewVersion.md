@@ -83,7 +83,7 @@ height:38px;
     color: #414B58;
     display:inline-block;
     justify-content: space-between;
-    width:90%;
+    width:100%;
     padding: 87px 32px 0px 32px;
     position:relative;
 }
@@ -109,7 +109,7 @@ height:38px;
   cursor: pointer;
   border-radius:4px;
   padding:0px 20px 0px 20px;
-  margin: 0px 18px;
+  margin: 0px 0px 0px 18px;
   min-width:120px;
   border:none;
 }
