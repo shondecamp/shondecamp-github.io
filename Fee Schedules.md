@@ -121,6 +121,10 @@
     .buttonprimary img{
         opacity:50%;
         background:#23653d;
+        height:16px;
+        top:2px;
+        position:relative;
+        padding-right:8px;
     }
     .buttonprimary:hover{
         background:#17532F;
