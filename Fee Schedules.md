@@ -332,181 +332,203 @@ td {
         <table onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/';">
             <thead>
                 <tr>
-                    <th>fee item code</th>
-                    <th>description</th>
-                    <th>fee amount</th>
-                    <th>fee formula</th>
+                    <th>fee schedule</th>
+                    <th>fee schedule alias</th>
+                    <th>version</th>
+                    <th>effective date</th>
+                    <th>disabled on date</th>
                     <th>status</th>
                     <th></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>TL_PC_REN</td>
+                    <td>Plumbing Contractor Renewal Fees</td>
+                    <td>1.5.6ABC</td>
+                    <td>01/31/2020</td>
+                    <td>01/31/2020</td>
+                    <td>Enabled</td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 
