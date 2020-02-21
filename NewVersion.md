@@ -403,6 +403,11 @@ table {
     border:none;
     padding: 0px 5px 0px 32px;
 }
+.markdown-body img {
+    max-width: 100%;
+    box-sizing: content-box;
+    background-color: none;
+}
 thead{
     width: 100%;
     border-bottom: 3px solid #E7E5E4;
