@@ -385,7 +385,7 @@ input:checked + .slider:before {
 .tablecontainer{
     margin:0px 32px;
     box-shadow:0px 0px 5px 3px lightgrey;
-    padding:10px 0px;
+    padding:0px;
 }
 table {
     font-family: 'Open Sans';
