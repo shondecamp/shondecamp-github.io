@@ -419,7 +419,7 @@ input:checked + .slider:before {
         </div>
         <div class="formfieldwrapper"> 
             <div class="readonlywrapper">
-                <label>enabled</label>
+                <label>status</label>
                 <br>
                 <label class="switch">
                 <input type="checkbox" onclick="this.select()">
