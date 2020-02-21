@@ -105,7 +105,7 @@
     }
     .buttonprimary{
       height:50px;
-      background:#014085;
+      background:#23653d;
       color:white;
       font-family:"Open Sans";
       font-weight:bold;
@@ -118,8 +118,14 @@
       min-width:120px;
       border:none;
     }
+    .buttonprimary img{
+        opacity:50%;
+    }
     .buttonprimary:hover{
-        background:#003772;
+        background:#17532F;
+    }
+    .buttonprimary:hover img{
+        opacity:100%;
     }
     .meta{
         width:100%;
@@ -298,7 +304,7 @@ td {
         <div class="title">
             <a>Fee Schedules</a>
             <div class="buttoncontainer">
-                <button class="buttonprimary">create new</button>
+                <button class="buttonprimary"><img src="plusicon.png">create new</button>
             </div>
         </div>
         <div class="meta">
@@ -306,13 +312,13 @@ td {
                 <div class="input" style="display:flex;">
                     <label></label>
                     <br>
-                    <input value="Enabled" onclick="this.select()">
+                    <img src="Search.png">
+                    <input value="Find in list" onclick="this.select()">
                 </div> 
                 <div class="input" style="display:flex;">
                     <label></label>
                     <br>
-                    <img src="Search.png">
-                    <input value="Find in list" onclick="this.select()">
+                    <input value="Enabled" onclick="this.select()">
                 </div> 
                 <button class="textbutton" style="position:relative; top:14px;"><img src="Filters.png">More Filters</button>
             </div> 
