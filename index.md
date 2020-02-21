@@ -244,6 +244,9 @@ height:38px;
 .tinybutton:hover{
     background:#f2f5f9;
 }
+.tinybutton:hover img{
+    background:#f2f5f9;
+ }
 .readonlywrapper{
     height: 54px;
     background: transparent;
@@ -402,11 +405,6 @@ table {
 .markdown-body table th, .markdown-body table td {
     border:none;
     padding: 0px 5px 0px 32px;
-}
-.markdown-body img {
-    max-width: 100%;
-    box-sizing: content-box;
-    background-color: none;
 }
 thead{
     width: 100%;
