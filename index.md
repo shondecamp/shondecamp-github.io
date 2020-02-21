@@ -387,16 +387,14 @@ input:checked + .slider:before {
             <img src="Fill 304.png">
             <a class="pointer" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';">Fee Schedules</a>
             <img src="Fill 304.png">
-            <a class="pointer" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';">TL_PC_REN</a>
-            <img src="Fill 304.png">
-            <a style="font-weight:bolder;">Edit TL_PC_REN</a>
+            <a style="font-weight:bolder;">TL_PC_REN</a>
         </div>
         <div class="usericon">
             <img src="Group.png">
         </div>
     </div>  
     <div class="title">
-        <a>Edit - TL_PC_REN</a>
+        <a>TL_PC_REN</a>
         <div class="buttoncontainer">
             <button class="buttonsecondary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';" target="_blank">cancel</button>
             <button class="buttonprimary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';" target="_blank">save</button>
