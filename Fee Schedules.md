@@ -84,7 +84,7 @@
         color: #414B58;
         display:inline-block;
         justify-content: space-between;
-        width:90%;
+        width:100%;
         padding: 87px 32px 0px 32px;
         position:relative;
     }
@@ -114,7 +114,7 @@
       cursor: pointer;
       border-radius:4px;
       padding:0px 20px 0px 20px;
-      margin: 0px 18px;
+      margin: 0px 0px 0px 18px;
       min-width:120px;
       border:none;
     }
@@ -134,21 +134,22 @@
         margin-bottom:32px;
     }
     .input{
-        height: 54px;
+        height: 40px;
         background: #F9FAFB;
         border: 1px solid #E7E5E4;
         border-radius:4px;
         margin:0px 24px 0px 0px;
         display:inline-block;
         vertical-align:middle;
-        width:400px;
+        width:300px;
     }
     .input img{
         height: 19px;
         position:relative;
         left:20px;
-        top:16px;
+        top:10px;
         margin-right:10px;
+        opacity:30%;
     }
     .input:focus-within{
         border:1px solid #17A1D1;
@@ -193,7 +194,7 @@
         color:#0052aa;
         border-radius:4px;
         height:30px;
-        margin: 0px 0px 0px 18px;
+        margin: 0px;
         cursor: pointer;
         position:absolute;
         font-family:'Open Sans';
@@ -305,15 +306,15 @@ td {
                 <div class="input" style="display:flex;">
                     <label></label>
                     <br>
+                    <input value="Enabled" onclick="this.select()">
+                </div> 
+                <div class="input" style="display:flex;">
+                    <label></label>
+                    <br>
                     <img src="Search.png">
                     <input value="Find in list" onclick="this.select()">
                 </div> 
-                <div class="input">
-                    <label>status</label>
-                    <br>
-                    <input value="enabled" onclick="this.select()">
-                </div>
-                <button class="textbutton" style="position:relative; top:32px;"><img src="Filters.png">More Filters</button>
+                <button class="textbutton" style="position:relative; top:14px;"><img src="Filters.png">More Filters</button>
             </div> 
         </div>
         <table onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20View';">
