@@ -451,6 +451,11 @@ td {
     padding:0px 5px 0px 32px;
     border:none;
 }
+.spacer {
+    height:150px;
+    width:100%;
+    border:none;
+    background:transparent;
 </style>
 <body>
     <div class="accelaheader">
@@ -573,5 +578,6 @@ td {
             </tbody>
         </table>
         </div>
+  <div class="spacer"></div>
 </body>
 </html>
