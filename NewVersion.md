@@ -379,11 +379,11 @@ input:checked + .slider:before {
     font-weight:bold;
     font-size:18px;
     color:#414a57;
-    padding: 0px 12px 5px 12px;
+    padding: 10px 32px;
     width:100%;
 }
 .tablecontainer{
-    margin:32px;
+    margin:0px 32px;
     box-shadow:0px 0px 5px 3px lightgrey;
     padding:10px 0px;
 }
