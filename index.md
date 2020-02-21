@@ -374,6 +374,83 @@ input:checked + .slider:before {
 .pointer{
   cursor:pointer;
  }
+.tabletitle{
+    font-family:'Open Sans';
+    font-weight:bold;
+    font-size:18px;
+    color:#414a57;
+    padding: 0px 12px 5px 12px;
+    width:100%;
+}
+.tablecontainer{
+    margin:32px;
+    box-shadow:0px 0px 5px 3px lightgrey;
+    padding:10px 0px;
+}
+table {
+    font-family: 'Open Sans';
+    border-collapse: collapse;
+    width: 100%;
+    color:#4C4C4C;
+}
+.markdown-body table {
+    display:inline-table;
+}
+.markdown-body table tr{
+    border-top:none;
+}
+.markdown-body table th, .markdown-body table td {
+    border:none;
+    padding: 0px 5px 0px 32px;
+}
+thead{
+    width: 100%;
+    border-bottom: 3px solid #E7E5E4;
+}
+th{
+    text-align:left;
+    text-transform:uppercase;
+    font-weight:100 !important;
+    font-size:12px;
+    padding:0px 5px 0px 32px;
+}
+tbody{
+    width:100%;
+    display:table-row-group;
+}
+tr{
+    font-size:14px;
+    height:37px;
+}
+tbody tr{
+    background-color: #F9FAFB;
+    cursor: pointer;
+    border-bottom:1px solid #E7E5E4;
+}
+tbody tr img{
+    visibility:hidden;
+    height:16px;
+    padding:0px 32px 0px 0px;
+}
+tbody tr:hover{
+    background-color:#D4E0EC;
+}
+tbody tr:hover img{
+    visibility:visible;
+}
+tbody tr:nth-child(even):hover img{
+    visibility:visible;
+}
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+tbody tr:nth-child(even):hover{
+    background-color:#D4E0EC;
+}
+td {
+    padding:0px 5px 0px 32px;
+    border:none;
+}
 </style>
 <body>
     <div class="accelaheader">
@@ -449,5 +526,52 @@ input:checked + .slider:before {
             </div>
         </div> 
     </div>
+    <div class="tablecontainer">
+            <div class="tabletitle">
+                 Fee Items 
+                 <button class="tinybutton" style="right:60px; font-weight:normal;">
+                      <img src="NewVersion.png" style="visibility:visible;height:12px;padding-right:5px;">
+                      Add Fee Item
+                 </button>
+            </div>
+            <table>
+            <thead>
+                <tr>
+                    <th>fee item code</th>
+                    <th>description</th>
+                    <th>fee amount</th>
+                    <th>fee formula</th>
+                    <th>status</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>12345</td>
+                    <td>some beautify item</td>
+                    <td>$10</td>
+                    <td>e=mc2</td>
+                    <td>enabled</td>
+                    <td><img src="Trash.png"></td>
+                </tr>
+                <tr>
+                    <td>12345</td>
+                    <td>some beautify item</td>
+                    <td>$10</td>
+                    <td>e=mc2</td>
+                    <td>enabled</td>
+                    <td><img src="Trash.png"></td>
+                </tr>
+                <tr>
+                    <td>12345</td>
+                    <td>some beautify item</td>
+                    <td>$10</td>
+                    <td>e=mc2</td>
+                    <td>enabled</td>
+                    <td><img src="Trash.png"></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
 </body>
 </html>
