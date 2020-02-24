@@ -449,7 +449,7 @@ tbody tr:hover img{
 tbody tr:nth-child(even):hover img{
     visibility:visible;
 }
-tbody tr:nth-child(even) {
+tbody tr:nth-child(odd) {
     background-color: white;
 }
 tbody tr:nth-child(even):hover{
