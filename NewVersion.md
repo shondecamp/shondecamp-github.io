@@ -441,7 +441,7 @@ tbody tr img{
     padding:0px 32px 0px 0px;
 }
 tbody tr:hover{
-    background-color:#D4E0EC;
+    background-color:#D6E4F0;
 }
 tbody tr:hover img{
     visibility:visible;
@@ -453,7 +453,7 @@ tbody tr:nth-child(even) {
     background-color: white !important;
 }
 tbody tr:nth-child(even):hover{
-    background-color:#D4E0EC;
+    background-color:#D6E4F0;
 }
 td {
     padding:0px 5px 0px 32px;
@@ -489,7 +489,6 @@ td {
     top:-1px;
     left:19px;
     outline:none;
-    width:400px;
 }
 </style>
 <body>
