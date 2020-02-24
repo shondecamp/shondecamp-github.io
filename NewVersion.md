@@ -86,6 +86,8 @@ height:38px;
     width:100%;
     padding: 87px 32px 0px 32px;
     position:fixed;
+    background:white;
+    z-index:1;
 }
 .title a{
   color:#414B58;
