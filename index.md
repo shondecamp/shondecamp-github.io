@@ -459,6 +459,33 @@ td {
     width:100%;
     border:none;
     background:transparent;
+  }
+  .tableinput{
+    background: white;
+    border: 1px solid #E7E5E4;
+    border-radius:4px;
+    margin:0;
+    display:inline-block;
+    width:150px;
+}
+.tableinput:focus-within{
+    border:1px solid #17A1D1;
+}
+.tableinput input{
+    color:#414a56;
+    font-family:'Open Sans';
+    font-size:14px;
+    line-height:25px;
+    margin:0;
+    padding:0;
+    border:none;
+    background:transparent;
+    position:relative;
+    top:-1px;
+    left:19px;
+    outline:none;
+    width:400px;
+}
 </style>
 <body>
     <div class="accelaheader">
@@ -555,27 +582,36 @@ td {
             </thead>
             <tbody>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>MAT_PPR</td>
+                    <td>Fees for printing and ink</td>
+                    <td><div class="tableinput"><input value="$10" onclick="this.select()"></div></td>
+                    <td>Constant</td>
+                    <td><label class="switch" style="margin-top:10px;">
+                        <input type="checkbox" onclick="this.select()">
+                        <span class="slider"></span>
+                        </label></td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
+                    <td>LUN_VAR_FEE</td>
+                    <td>Lunar cycle fee</td>
                     <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>Variable</td>
+                    <td><label class="switch" style="margin-top:10px;">
+                        <input type="checkbox" onclick="this.select()">
+                        <span class="slider"></span>
+                        </label></td>
                     <td><img src="Trash.png"></td>
                 </tr>
                 <tr>
-                    <td>12345</td>
-                    <td>some beautify item</td>
-                    <td>$10</td>
-                    <td>e=mc2</td>
-                    <td>enabled</td>
+                    <td>BO_LABOR</td>
+                    <td>Processing fee</td>
+                    <td><div class="tableinput"><input value="$10" onclick="this.select()"></div></td>
+                    <td>Constant</td>
+                    <td><label class="switch" style="margin-top:10px;">
+                        <input type="checkbox" onclick="this.select()">
+                        <span class="slider"></span>
+                        </label></td>
                     <td><img src="Trash.png"></td>
                 </tr>
             </tbody>
