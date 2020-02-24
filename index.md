@@ -85,7 +85,7 @@ height:38px;
     justify-content: space-between;
     width: 100%;
     padding: 30px 32px 0px 32px;
-    position: fixed;
+    position: relative;
     background: white;
     z-index: 1;
 }
@@ -98,7 +98,8 @@ height:38px;
     height: 50px;
     display: flex;
     align-items: center;
-    float: right;
+    position:fixed;
+    right:32px;
 }
 .buttonprimary{
   height:50px;
@@ -137,8 +138,8 @@ height:38px;
 }
 .meta {
     width: 100%;
-    padding: 32px 32px;
-    margin: 130px 0px 0px 0px;
+    padding: 0px 32px;
+    margin: 0px;
     display: block;
     position: static;
 }
