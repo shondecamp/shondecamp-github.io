@@ -436,7 +436,7 @@ tbody tr img{
     padding:0px 32px 0px 0px;
 }
 tbody tr:hover{
-    background-color:#D4E0EC;
+    background-color:#D4E0EC !important;
 }
 tbody tr:hover img{
     visibility:visible;
