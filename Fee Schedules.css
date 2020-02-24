@@ -429,9 +429,44 @@ input:checked + .slider:before {
     border: 1px solid #E7E5E4;
     border-radius:4px;
     margin:0px 24px 0px 0px;
-    display:inline-block;
+    display:flex;
     vertical-align:middle;
     width:300px;
+}
+.filters img{
+    height: 19px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    margin-right: 10px;
+    opacity: 30%;
+}
+.filters input {
+    color: #414a56;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    position: relative;
+    top: -1px;
+    left: 19px;
+    outline: none;
+    width: 400px;
+}
+.filters label {
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: .25pt;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    vertical-align: top;
+    position: relative;
+    top: 5px;
+    left: 19px;
 }
 .tablecontainer{
     margin:0px 32px;
