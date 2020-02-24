@@ -431,7 +431,7 @@ tr{
     height:37px;
 }
 tbody tr{
-    background-color: #F9FAFB;
+    background-color: #F9FAFB !important;
     cursor: pointer;
     border-bottom:1px solid #E7E5E4;
 }
@@ -449,8 +449,8 @@ tbody tr:hover img{
 tbody tr:nth-child(even):hover img{
     visibility:visible;
 }
-tbody tr:nth-child(odd) {
-    background-color: white;
+tbody tr:nth-child(even) {
+    background-color: white !important;
 }
 tbody tr:nth-child(even):hover{
     background-color:#D4E0EC;
