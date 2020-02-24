@@ -628,7 +628,7 @@ td {
         </table>
       <script>
 function myFunction() {
-  alert("Hello! I am an alert box!");
+  alert("Are you sure you want to premanently delete this fee item?");
 }
 </script>
         </div>
