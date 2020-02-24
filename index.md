@@ -26,13 +26,13 @@
     </div>
     <div class="meta">
         <div class="tablecontrols">  
-            <div class="textinput" style="display:flex;">
+            <div class="filters" style="display:flex;">
                 <label></label>
                 <br>
                 <img src="Search.png">
                 <input value="Find in list" onclick="this.select()">
             </div> 
-            <div class="textinput" style="display:flex;">
+            <div class="filters" style="display:flex;">
                 <label></label>
                 <br>
                 <input value="Enabled" onclick="this.select()">
@@ -42,7 +42,7 @@
     </div>
     <table onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">
         <thead>
-            <tr>
+            <tr style="background:white;">
                 <th>fee schedule</th>
                 <th>fee schedule alias</th>
                 <th>version</th>
