@@ -578,7 +578,7 @@ td {
             </div>
             <table>
             <thead>
-                <tr>
+                <tr style="background:white;">
                     <th>fee item code</th>
                     <th>description</th>
                     <th>fee amount</th>
