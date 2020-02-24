@@ -515,11 +515,12 @@ td {
     </div>  
     <div class="title">
         <a>TL_PC_REN</a>
-    </div>
-    <div class="buttoncontainer">
+      <div class="buttoncontainer">
             <button class="buttonsecondary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';" target="_blank">cancel</button>
             <button class="buttonprimary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';" target="_blank">save</button>
         </div>
+    </div>
+    
     <div class="meta">
         <div class="formfieldwrapper">  
             <div class="input">
