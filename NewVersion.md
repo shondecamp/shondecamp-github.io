@@ -85,7 +85,7 @@ height:38px;
     justify-content: space-between;
     width:100%;
     padding: 87px 32px 0px 32px;
-    position:relative;
+    position:fixed;
 }
 .title a{
   color:#414B58;
@@ -135,7 +135,7 @@ height:38px;
 }
 .meta{
     width:100%;
-    padding:0px 32px;
+    padding:145px 32px;
     margin:70px 0px 0px 0px;
     display: block;
     position:static;
