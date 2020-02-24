@@ -75,19 +75,19 @@ body{
 .usericon img{
 height:38px;
 }
-.title{
-    height:58px;
-    font-size:32px;
-    font-family:'Open Sans';
-    margin:0;
+.title {
+    height: 88px;
+    font-size: 32px;
+    font-family: 'Open Sans';
+    margin-top: 55px;
     color: #414B58;
-    display:inline-block;
+    display: inline-block;
     justify-content: space-between;
-    width:100%;
-    padding: 87px 32px 0px 32px;
-    position:fixed;
-    background:white;
-    z-index:1;
+    width: 100%;
+    padding: 30px 32px 0px 32px;
+    position: fixed;
+    background: white;
+    z-index: 1;
 }
 .title a{
   color:#414B58;
@@ -136,11 +136,11 @@ height:38px;
     background:#F2F5F9;
 }
 .meta{
-    width:100%;
-    padding:145px 32px;
-    margin:70px 0px 0px 0px;
+    width: 100%;
+    padding: 32px 32px;
+    margin: 130px 0px 0px 0px;
     display: block;
-    position:static;
+    position: static;
 }
 .formfieldwrapper{
     width:100%;
