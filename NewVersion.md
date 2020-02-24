@@ -135,7 +135,7 @@ height:38px;
 .buttonsecondary:hover{
     background:#F2F5F9;
 }
-.meta{
+.meta {
     width: 100%;
     padding: 32px 32px;
     margin: 130px 0px 0px 0px;
