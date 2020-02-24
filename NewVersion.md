@@ -600,7 +600,7 @@ td {
                         <input type="checkbox" onclick="this.select()">
                         <span class="slider"></span>
                         </label></td>
-                    <td><img src="Trash.png"></td>
+                    <td onclick="myFunction()"><img src="Trash.png"></td>
                 </tr>
                 <tr>
                     <td>LUN_VAR_FEE</td>
@@ -626,6 +626,11 @@ td {
                 </tr>
             </tbody>
         </table>
+      <script>
+function myFunction() {
+  alert("Hello! I am an alert box!");
+}
+</script>
         </div>
   <div class="spacer"></div>
 </body>
