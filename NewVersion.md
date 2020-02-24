@@ -401,6 +401,7 @@ table {
 }
 .markdown-body table tr{
     border-top:none;
+    background: #f9fafb;
 }
 .markdown-body table th, .markdown-body table td {
     border:none;
@@ -410,6 +411,9 @@ table {
     max-width: 100%;
     box-sizing: content-box;
     background-color: none;
+}
+.markdown-body table tr:nth-child(2n) {
+    background-color: white;
 }
 thead{
     width: 100%;
@@ -431,7 +435,7 @@ tr{
     height:37px;
 }
 tbody tr{
-    background-color: #F9FAFB !important;
+    background-color: #F9FAFB;
     cursor: pointer;
     border-bottom:1px solid #E7E5E4;
 }
@@ -450,7 +454,7 @@ tbody tr:nth-child(even):hover img{
     visibility:visible;
 }
 tbody tr:nth-child(even) {
-    background-color: white !important;
+    background-color: white;
 }
 tbody tr:nth-child(even):hover{
     background-color:#D6E4F0;
