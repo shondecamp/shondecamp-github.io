@@ -85,7 +85,7 @@ height:38px;
     justify-content: space-between;
     width: 100%;
     padding: 30px 32px 0px 32px;
-    position: fixed;
+    position: relative;
     background: white;
     z-index: 1;
 }
@@ -99,6 +99,9 @@ height:38px;
   display:flex;
   align-items:center;
   float:right;
+  position:fixed;
+  margin-top:55px;
+  padding: 30px 32px 0px 32px;
 }
 .buttonprimary{
   height:50px;
@@ -512,11 +515,11 @@ td {
     </div>  
     <div class="title">
         <a>TL_PC_REN</a>
-        <div class="buttoncontainer">
+    </div>
+    <div class="buttoncontainer">
             <button class="buttonsecondary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';" target="_blank">cancel</button>
             <button class="buttonprimary" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedules';" target="_blank">save</button>
         </div>
-    </div>
     <div class="meta">
         <div class="formfieldwrapper">  
             <div class="input">
