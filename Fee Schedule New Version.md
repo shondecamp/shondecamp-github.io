@@ -120,7 +120,7 @@
                 <tr>
                     <td>BO_LABOR</td>
                     <td>Processing fee</td>
-                    <td><div class="tableinput"><input value="$10" onclick="this.select()"></div></td>
+                    <td><div class="tableinput">$<input value="10" onclick="this.select()"></div></td>
                     <td>Constant</td>
                     <td><label class="switch" style="margin-top:10px;">
                         <input type="checkbox" onclick="this.select()">
