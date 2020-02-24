@@ -85,7 +85,7 @@ height:38px;
     justify-content: space-between;
     width: 100%;
     padding: 30px 32px 0px 32px;
-    position: relative;
+    position: fixed;
     background: white;
     z-index: 1;
 }
@@ -94,14 +94,11 @@ height:38px;
   text-decoration:none;
   float:left;
 }
-.buttoncontainer{
-  height:50px;
-  display:flex;
-  align-items:center;
-  float:right;
-  position:fixed;
-  margin-top:55px;
-  padding: 30px 32px 0px 32px;
+.buttoncontainer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    float: right;
 }
 .buttonprimary{
   height:50px;
