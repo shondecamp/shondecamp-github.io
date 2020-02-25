@@ -552,14 +552,16 @@ td {
     border: none;
     background: transparent;
 }
-  .tableinput{
+.tableinput {
     background: white;
     border: 1px solid #E7E5E4;
-    border-radius:4px;
-    margin:0;
-    display:flex;
-    width:150px;
-    padding-left: 20px;
+    border-radius: 4px;
+    margin: 0;
+    display: flex;
+    width: 150px;
+    padding-left: 10px;
+    position: relative;
+    left: -11px;
 }
 .tableinput:focus-within{
     border:1px solid #17A1D1;
