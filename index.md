@@ -32,11 +32,13 @@
                 <img src="Search.png">
                 <input value="Find in list" onclick="this.select()">
             </div> 
-            <div class="filters" style="display:flex;">
-                <label></label>
-                <br>
-                <input value="Enabled" onclick="this.select()">
-            </div> 
+            <div class="custom-select" style="width:200px;">
+                <select>
+                    <option value="0">Enabled</option>
+                    <option value="1">Disabled</option>
+                    <option value="1">Any</option>
+                </select>
+            </div>
             <button class="textbutton" style="position:relative; top:14px;"><img src="Filters.png">More Filters</button>
         </div> 
     </div>
