@@ -231,7 +231,7 @@ body{
     color:#0052aa;
     border-radius:4px;
     height:30px;
-    margin: 0px;
+    margin: 0px 0px 0px 20px;
     cursor: pointer;
     position:absolute;
     font-family:'Open Sans';
