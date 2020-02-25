@@ -35,8 +35,9 @@
             <div class="custom-select" style="width:200px;">
                 <select>
                     <option value="0">Enabled</option>
-                    <option value="1">Disabled</option>
-                    <option value="1">Any</option>
+                    <option value="1">Enabled</option>
+                    <option value="2">Disabled</option>
+                    <option value="3">Any Status</option>
                 </select>
             </div>
             <button class="textbutton" style="position:relative; top:14px;"><img src="Filters.png">More Filters</button>
