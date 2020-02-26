@@ -66,7 +66,11 @@ function swapText() {
   document.getElementById("myBtn").disabled = false;
 }
 function myFunction() {
-  var x = document.getElementById("snackbar");
-  x.className = "show";
-  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-}
+  
+  document.getElementById("myBtn").disabled = true;
+  var x = document.getElementById("myBtn2");
+  if (x.innerHTML === "cancel") {
+    x.innerHTML = "close";
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);}}
