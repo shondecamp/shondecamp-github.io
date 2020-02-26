@@ -638,3 +638,47 @@ td {
   .select-items div:hover, .same-as-selected {
     background-color: rgba(0, 0, 0, 0.1);
   }
+  #snackbar {
+    visibility: hidden;
+    margin:32px;
+    padding-left:24px;
+    min-width: 250px;
+    background-color: #23653D;
+    color: #fff;
+    line-height:72px;
+    position: fixed;
+    z-index: 1;
+    width:90%;
+    top: 30px;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:'Open Sans';
+    height:72px;
+    box-shadow:box-shadow: 0px 0px 16px 0px lightgrey;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;} 
+    to {top: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {top: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+  }

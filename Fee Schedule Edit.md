@@ -23,8 +23,8 @@
     <div class="title">
         <a>TL_PC_REN</a>
       <div class="buttoncontainer">
-            <button class="secondarybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/';" target="_blank">cancel</button>
-            <button class="primarybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/';" target="_blank" id="myBtn" disabled>save</button>
+            <button class="secondarybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/';" target="_blank" id="myBtn2">close</button>
+            <button class="primarybutton" onclick="myFunction(); window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';" target="_blank" id="myBtn" disabled>save</button>
         </div>
     </div>    
     <div class="meta">
@@ -133,6 +133,7 @@
         </table>
     </div>
   <div class="spacer"></div>
+  <div id="snackbar">Edits Saved!</div>
   <script src="Fee Schedules.js"></script>
 </body>
 </html>

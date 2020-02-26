@@ -26,7 +26,7 @@
         <a>New Version - TL_PC_REN</a>
         <div class="buttoncontainer">
             <button class="secondarybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';" target="_blank" id="myBtn2">close</button>
-            <button class="primarybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20New%20Version';" target="_blank" id="myBtn" disabled>save</button>
+            <button class="primarybutton" onclick="myFunction(); window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20New%20Version';" target="_blank" id="myBtn" disabled>save</button>
         </div>
     </div>
     <div class="meta">
@@ -132,6 +132,7 @@
         </table>
         </div>
   <div class="spacer"></div>
+  <div id="snackbar">New Version Created!</div>
   <script src="Fee Schedules.js"></script>
 </body>
 </html>
