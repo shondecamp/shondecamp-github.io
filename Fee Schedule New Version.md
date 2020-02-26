@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="Fee Schedules.css">
+    <link rel="stylesheet" type="text/css" href="Fee Schedules copy.css">
 </head>
 <body>
     <div class="accelaheader">
@@ -25,8 +25,8 @@
     <div class="title">
         <a>New Version - TL_PC_REN</a>
         <div class="buttoncontainer">
-            <button class="secondarybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';" target="_blank">cancel</button>
-            <button class="primarybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';" target="_blank">save</button>
+            <button class="secondarybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';" target="_blank" id="myBtn2">close</button>
+            <button class="primarybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20New%20Version';" target="_blank" id="myBtn" disabled>save</button>
         </div>
     </div>
     <div class="meta">
@@ -34,14 +34,14 @@
             <div class="textinput">
                 <label>fee schedule alias</label>
                 <br>
-                <input value="Plumbing contractor renewal fees" onclick="this.select()">
+                <input value="Plumbing contractor renewal fees" onclick="this.select(); swapText()">
             </div>
         </div> 
         <div class="formfieldwrapper">  
             <div class="textinput">
                 <label>version</label>
                 <br>
-                <input value="1.5.6ABC" onclick="this.select()">
+                <input value="1.5.6ABC" onclick="this.select(); swapText()">
             </div>
         </div>
         <div class="formfieldwrapper"> 
@@ -49,7 +49,7 @@
                 <label>status</label>
                 <br>
                 <label class="switch">
-                <input type="checkbox" onclick="this.select()">
+                <input type="checkbox" onclick="this.select(); swapText()">
                 <span class="slider"></span>
                 </label>
             </div> 
@@ -58,20 +58,20 @@
             <div class="textinput">
                 <label>effective</label>
                 <br>
-                <input value="01/31/2020" onclick="this.select()">
+                <input value="01/31/2020" onclick="this.select(); swapText()">
             </div>
         </div> 
         <div class="formfieldwrapper">  
             <div class="textinput">
                 <label>expires</label>
                 <br>
-                <input value="01/31/2020" onclick="this.select()">
+                <input value="01/31/2020" onclick="this.select(); swapText()">
             </div>
         </div> 
         <div class="freetextwrapper">  
             <div class="freetext">
                 <label>comments</label>
-                <textarea rows="4" cols="50">These are the comments right now. Time to edit them buddy!</textarea>
+                <textarea rows="4" cols="50" onclick="this.select(); swapText()">These are the comments right now. Time to edit them buddy!</textarea>
             </div>
         </div> 
     </div>
@@ -98,10 +98,10 @@
                 <tr>
                     <td>MAT_PPR</td>
                     <td>Fees for printing and ink</td>
-                    <td><div class="tableinput">$<input value="10" onclick="this.select()"></div></td>
+                    <td><div class="tableinput">$<input value="10" onclick="this.select(); swapText()"></div></td>
                     <td>Constant</td>
                     <td><label class="switch" style="margin-top:10px;">
-                        <input type="checkbox" onclick="this.select()">
+                        <input type="checkbox" onclick="this.select(); swapText()">
                         <span class="slider"></span>
                         </label></td>
                     <td onclick="myFunction()"><img src="Trash.png"></td>
@@ -112,7 +112,7 @@
                     <td>$10</td>
                     <td>Variable</td>
                     <td><label class="switch" style="margin-top:10px;">
-                        <input type="checkbox" onclick="this.select()">
+                        <input type="checkbox" onclick="this.select(); swapText()">
                         <span class="slider"></span>
                         </label></td>
                     <td><img src="Trash.png"></td>
@@ -120,10 +120,10 @@
                 <tr>
                     <td>BO_LABOR</td>
                     <td>Processing fee</td>
-                    <td><div class="tableinput">$<input value="10" onclick="this.select()"></div></td>
+                    <td><div class="tableinput">$<input value="10" onclick="this.select(); swapText()"></div></td>
                     <td>Constant</td>
                     <td><label class="switch" style="margin-top:10px;">
-                        <input type="checkbox" onclick="this.select()">
+                        <input type="checkbox" onclick="this.select(); swapText()">
                         <span class="slider"></span>
                         </label></td>
                     <td><img src="Trash.png"></td>
@@ -132,6 +132,6 @@
         </table>
         </div>
   <div class="spacer"></div>
-  <script src="Fee Schedules.js"></script>
+  <script src="Fee Schedules copy.js"></script>
 </body>
 </html>

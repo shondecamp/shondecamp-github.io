@@ -116,6 +116,11 @@ body{
 .primarybutton:hover{
     background:#003772;
 }
+button:disabled,
+button[disabled]{
+  opacity:20%;
+  cursor:auto;
+}
 .addbutton{
     height:50px;
     background:#23653d;

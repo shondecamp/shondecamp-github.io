@@ -1,6 +1,3 @@
-    function myFunction() {
-      alert("Are you sure you want to premanently delete this fee item?");
-    }
     var x, i, j, selElmnt, a, b, c;
 x = document.getElementsByClassName("custom-select");
 for (i = 0; i < x.length; i++) {
@@ -60,3 +57,11 @@ function closeAllSelect(elmnt) {
   }
 }
 document.addEventListener("click", closeAllSelect);
+
+function swapText() {
+  var x = document.getElementById("myBtn2");
+  if (x.innerHTML === "close") {
+    x.innerHTML = "cancel";
+  }
+  document.getElementById("myBtn").disabled = false;
+}
