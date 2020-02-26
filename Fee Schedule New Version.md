@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="Fee Schedules copy.css">
+    <link rel="stylesheet" type="text/css" href="Fee Schedules.css">
 </head>
 <body>
     <div class="accelaheader">
@@ -132,6 +132,6 @@
         </table>
         </div>
   <div class="spacer"></div>
-  <script src="Fee Schedules copy.js"></script>
+  <script src="Fee Schedules.js"></script>
 </body>
 </html>
