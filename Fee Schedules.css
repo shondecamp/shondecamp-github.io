@@ -776,10 +776,11 @@ td {
     border: 1px solid #17A1D1;
 }
 .sidenav .title{
-    font-size:32px;
-    color:#414a56;
-    margin:32px;
-    font-family:'Open Sans';
+    font-size: 32px;
+    color: #414a56;
+    margin: 32px 0px 0px 0px;
+    font-family: 'Open Sans';
+    width: 400px;
 }
 .sidenav .couponitemdates{
     margin-left:30px;
@@ -812,12 +813,12 @@ td {
 }
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
+    top: 70px;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-    text-decoration:none;
-    color:#414a56;
+    text-decoration: none;
+    color: #414a56;
 }
 .sidenav {
     height: 100%;
