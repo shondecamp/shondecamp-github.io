@@ -107,7 +107,7 @@ function showActcodesfix() {
             }
     var percElements = document.getElementsByClassName('perc'), i;
             for (i = 0; i < percElements.length; i += 1) {
-            percElements[i].style.display = 'none';
+            percElements[i].style.display = "none";
 }
 }
 function hideActcodes() {
