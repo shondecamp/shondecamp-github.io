@@ -158,7 +158,7 @@
                     </div>
                     <div class="gridfield">
                         <label for="perc" class="perc">Percentage</label><br>
-                        <input class="perc" type="text" id="percentage" name="accountcode" class="percent" placeholder="%" style="min-width:50px; width:120px;">
+                        <input class="perc" type="text" id="percentage" name="accountcode" placeholder="%" style="min-width:50px; width:120px;">
                     </div>
                     <div class="gridfield">
                         <label for="fixed" class="fixed">Amount</label><br>
@@ -170,7 +170,7 @@
                     </div>
                     <div class="gridfield">
                         <label for="perc" class="perc">Percentage</label><br>
-                        <input class="perc" type="text" id="percentage2" name="accountcode" class="percent" placeholder="%" style="min-width:50px; width:120px;">
+                        <input class="perc" type="text" id="percentage2" name="accountcode" placeholder="%" style="min-width:50px; width:120px;">
                     </div>
                     <div class="gridfield">
                         <label for="fixed" class="fixed">Amount</label><br>
@@ -182,7 +182,7 @@
                     </div>
                     <div class="gridfield">
                         <label for="perc" class="perc">Percentage</label><br>
-                        <input class="perc" type="text" id="percentage2" name="accountcode" class="percent" placeholder="%" style="min-width:50px; width:120px;">
+                        <input class="perc" type="text" id="percentage2" name="accountcode" placeholder="%" style="min-width:50px; width:120px;">
                     </div>
                     <div class="gridfield">
                         <label for="fixed" class="fixed">Amount</label><br>
