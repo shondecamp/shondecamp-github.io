@@ -43,7 +43,7 @@ body{
     width:100%;
     border-bottom: 1px solid #414A56;
     padding:0px 14px;
-    z-index:999;
+    z-index:998;
     background:white;
 }
 .breadcrumbs{
