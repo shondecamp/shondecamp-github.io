@@ -189,11 +189,10 @@
                         <input class="fixed" type="text" class="fixed" name="fixed" style="min-width:50px; width:120px;" placeholder="$">
                         </div><br>
                     </div>
-                </div>
             </form>
+        </div>
         <input type="submit" class="save" value="Save">
         <input type="submit" class="cancel" value="Cancel">
-    </div>
 </div>
     <div class="accelaheader">
         <div class="logo">
