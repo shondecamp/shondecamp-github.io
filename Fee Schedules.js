@@ -90,25 +90,25 @@ function hideCoupon() {
 }
 function showActcodesperc() {
   document.getElementById("codes") .style.display = "inline"
-var fixElements = document.getElementsByClassName('fixed'), i;
-        for (i = 0; i < fixElements.length; i +=1) {
-        fixElements[i].style.display = "none";
-}
   var percElements = document.getElementsByClassName('perc'), i;
             for (i = 0; i < percElements.length; i += 1) {
             percElements[i].style.display = 'inline';
 }
+  var fixElements = document.getElementsByClassName('fixed'), i;
+            for (i = 0; i < fixElements.length; i +=1) {
+            fixElements[i].style.display = "none";
+            }
 }
 function showActcodesfix() {
   document.getElementById("codes") .style.display = "inline"
-  var percElements = document.getElementsByClassName('perc'), i;
-            for (i = 0; i < percElements.length; i += 1) {
-            percElements[i].style.display = 'none';
-}
   var fixElements = document.getElementsByClassName('fixed'), i;
             for (i = 0; i < fixElements.length; i +=1) {
             fixElements[i].style.display = "inline";
             }
+    var percElements = document.getElementsByClassName('perc'), i;
+            for (i = 0; i < percElements.length; i += 1) {
+            percElements[i].style.display = 'none';
+}
 }
 function hideActcodes() {
   document.getElementById("codes") .style.display = "none";
