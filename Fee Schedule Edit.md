@@ -126,7 +126,7 @@
                 <label>Assess Adjustment on Recalculation</label><br>
                 <input type="radio" id="yes" name="acadisp" value="yes">
                 <label style="font-weight:normal;" for="yes">Yes</label>
-                <input type="radio" id="no" name="acadisp" value="no"">
+                <input type="radio" id="no" name="acadisp" value="no">
                 <label style="font-weight:normal;" for="no">No</label><br>
                 <label>Adjustment Credits Allowed</label><br>
                 <input type="radio" id="yes" name="acadisp" value="yes">
