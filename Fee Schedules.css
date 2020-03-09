@@ -697,19 +697,20 @@ td {
     font-family:'Open Sans';
 }
 .sidenav input{
-    margin:0;
+    margin: 0;
     font-size: 16px;
     border-radius: 4px;
     border: 1px solid #E7E5E4;
     line-height: 14px;
-    padding: 30px 0px 9px 20px;
+    padding: 29px 0px 9px 18px;
     position: relative;
     bottom: 0;
     z-index: 2;
     min-width: 350px;
     background: #F9FAFB;
-    color:#414A56;
-    font-family:'Open Sans';
+    color: #414A56;
+    font-family: 'Open Sans';
+    max-height: 56px;
 }
 .sidenav input[type=text]:focus {
     outline:none;
@@ -751,14 +752,14 @@ td {
     line-height: 14px;
     padding: 30px 0px 9px 20px;
     position: relative;
-    top: 11px;
+    top: 8px;
+    left: 11px;
     z-index: 2;
     min-width: 310px;
     background: transparent;
     height: 59px;
     color: #414A56;
-    left: 13;
-    font-family:'Open Sans';
+    font-family: 'Open Sans';
 }
 .sidenav select:focus{
     outline:none;
