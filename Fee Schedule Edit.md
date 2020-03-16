@@ -324,7 +324,7 @@
         </table>
     </div>
   <div class="spacer"></div>
-  <div id="snackbar">Edits Saved!</div>
+  <div id="snackbar"><img src="checkmark.png">Edits Saved!</div>
   <script src="Fee Schedules.js"></script>
 </body>
 </html>
