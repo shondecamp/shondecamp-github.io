@@ -664,8 +664,11 @@ td {
   }
 
 #snackbar img {
- height:16px;
-  background:transparent;
+    height: 16px;
+    background: transparent;
+    position: relative;
+    top: 2px;
+    left: -10px;
 }
   
   @-webkit-keyframes fadein {
