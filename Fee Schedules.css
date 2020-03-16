@@ -662,6 +662,11 @@ td {
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
   }
+
+#snackbar img {
+ height:16px;
+  background:transparent;
+}
   
   @-webkit-keyframes fadein {
     from {top: 0; opacity: 0;} 
