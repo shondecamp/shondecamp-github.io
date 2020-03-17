@@ -323,7 +323,9 @@
         </table>
         </div>
   <div class="spacer"></div>
-  <div id="snackbar">New Version Created!</div>
+  <div id="snackbaredit">New Version Created!</div>
+  <div id="snackbarremove">Fee Item Removed</div>
+  <div id="snackbaradd">Fee Item Added</div>
   <script src="Fee Schedules.js"></script>
 </body>
 </html>
