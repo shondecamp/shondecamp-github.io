@@ -270,6 +270,7 @@
             </tr>
         </tbody>
     </table>
+    <div id="snackbar"><img src="checkmark.png">Edits Saved!</div>
 <script src="Fee Schedules.js"></script>
 </body>
 </html>
