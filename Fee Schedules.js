@@ -71,7 +71,7 @@ function myFunction() {
   var x = document.getElementById("myBtn2");
   if (x.innerHTML === "cancel") {
     x.innerHTML = "close";
-    var x = document.getElementById("snackbar");
+    var x = document.getElementById("snackbaredit");
     x.className = "show";
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 2000);}}
 
@@ -151,7 +151,7 @@ function closeNav() {
 function sureDelete() {
   var r = confirm("Are you sure you want to delete this item?");
   if (r == true) {
-    var x = document.getElementById("snackbar");
+    var x = document.getElementById("snackbarremove");
     x.className = "show";
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 2000);};
   } 
