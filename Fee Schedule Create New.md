@@ -277,7 +277,9 @@
         </div>
     </div>
   <div class="spacer"></div>
-  <div id="snackbar"><img src="checkmark.png">Edits Saved!</div>
+   <div id="snackbaredit">Edits Saved</div>
+  <div id="snackbarremove">Fee Item Removed</div>
+  <div id="snackbaradd">Fee Item Added</div>
   <script src="Fee Schedules.js"></script>
 </body>
 </html>
