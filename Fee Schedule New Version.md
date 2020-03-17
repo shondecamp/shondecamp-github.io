@@ -191,7 +191,7 @@
                     </div>
             </form>
         </div>
-        <input type="submit" class="save" value="Save" onclick="closeNav()">
+        <input type="submit" class="save" value="Save" onclick="addFee()">
         <input type="submit" class="cancel" value="Cancel" onclick="closeNav()">
 </div>
     <div class="accelaheader">
