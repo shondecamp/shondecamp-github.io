@@ -296,7 +296,7 @@
                         <input type="checkbox" onclick="this.select(); swapText()">
                         <span class="slider"></span>
                         </label></td>
-                    <td><img src="Trash.png"></td>
+                    <td onclick="sureDelete()"><img src="Trash.png"></td>
                 </tr>
                 <tr>
                     <td>LUN_VAR_FEE</td>
@@ -307,7 +307,7 @@
                         <input type="checkbox" onclick="this.select(); swapText()">
                         <span class="slider"></span>
                         </label></td>
-                    <td><img src="Trash.png"></td>
+                    <td onclick="sureDelete()"><img src="Trash.png"></td>
                 </tr>
                 <tr>
                     <td>BO_LABOR</td>
@@ -318,7 +318,7 @@
                         <input type="checkbox" onclick="this.select(); swapText()">
                         <span class="slider"></span>
                         </label></td>
-                    <td><img src="Trash.png"></td>
+                    <td onclick="sureDelete()"><img src="Trash.png"></td>
                 </tr>
             </tbody>
         </table>
