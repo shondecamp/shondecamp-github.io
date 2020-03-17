@@ -86,7 +86,7 @@
                 <td>01/31/2020</td>
                 <td>01/31/2020</td>
                 <td>Enabled</td>
-                <td><img src="Trash.png"></td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
             <tr>
                 <td>TL_PC_REN</td>
