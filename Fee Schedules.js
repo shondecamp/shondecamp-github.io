@@ -152,7 +152,9 @@ function sureDelete() {
   var txt;
   var r = confirm("Press a button!");
   if (r == true) {
-    window.location.assign("https://shondecamp.github.io/shondecamp-github.io/");
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 2000);};
   } else {
     window.location.assign("https://shondecamp.github.io/shondecamp-github.io/");
   }
