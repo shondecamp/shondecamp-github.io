@@ -351,7 +351,8 @@
             </tr>
         </tbody>
     </table>
-    <div id="snackbar"><img src="checkmark.png">Fee Schedule Deleted</div>
+    <div id="snackbarremove"><img src="checkmark.png">Fee Schedule Deleted</div>
+    <div id="snackbaradd"><img src="checkmark.png">Fee Schedule Added</div>
 <script src="Fee Schedules.js"></script>
 </body>
 </html>
