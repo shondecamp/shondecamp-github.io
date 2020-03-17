@@ -149,5 +149,12 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 function sureDelete() {
-  confirm("Are you sure you want to delete this item?");
+  var txt;
+  var r = confirm("Press a button!");
+  if (r == true) {
+    window.location.assign("https://shondecamp.github.io/shondecamp-github.io/");
+  } else {
+    window.location.assign("https://shondecamp.github.io/shondecamp-github.io/");
+  }
+  document.getElementById("demo").innerHTML = txt;
 }
