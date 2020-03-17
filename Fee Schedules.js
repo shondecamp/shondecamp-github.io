@@ -149,8 +149,7 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 function sureDelete() {
-  var txt;
-  var r = confirm("Press a button!");
+  var r = confirm("Are you sure you want to delete this item?");
   if (r == true) {
     var x = document.getElementById("snackbar");
     x.className = "show";
@@ -158,5 +157,4 @@ function sureDelete() {
   } else {
     window.location.assign("https://shondecamp.github.io/shondecamp-github.io/");
   }
-  document.getElementById("demo").innerHTML = txt;
 }
