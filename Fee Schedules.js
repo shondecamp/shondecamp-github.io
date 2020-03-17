@@ -155,3 +155,8 @@ function sureDelete() {
     x.className = "show";
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 2000);};
   } 
+function addFee() {
+    document.getElementById("mySidenav").style.width = "0";
+    var x = document.getElementById("snackbaradd");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 2000);}}
