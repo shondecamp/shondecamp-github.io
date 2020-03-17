@@ -148,4 +148,6 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-
+function sureDelete() {
+  confirm("Are you sure you want to delete this item?");
+}
