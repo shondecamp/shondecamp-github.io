@@ -23,7 +23,7 @@
             <label for="comments">Comments</label><br>
             <textarea name="comments" id="comments" rows="10" cols="30"></textarea><br>
         </form>
-        <input type="submit" class="save" value="Save" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Edit';">
+        <input type="submit" class="save" value="Save" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Create%20New';">
         <input type="submit" class="cancel" value="Cancel" onclick="closeNav()">
     </div>
     <div class="accelaheader">
