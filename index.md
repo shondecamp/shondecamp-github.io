@@ -7,10 +7,12 @@
         <a class="title">Create Fee Schedule</a>
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <form action="/action_page.php">
-            <label for="schedulecode" id="label">Fee Item Code</label><br>
+            <label for="schedulecode" id="label">Fee Schedule Code</label><br>
             <input type="text" id="schedulecode" name="schedulecode" placeholder="Fee Schedule Code" onclick="floatLabel()"><br>
-            <label for="schedulealias" id="label">Fee Item Code</label><br>
+            <label for="schedulealias" id="label">Fee Schedule Alias</label><br>
             <input type="text" id="schedulealias" name="schedulealias" placeholder="Fee Schedule Alias" onclick="floatLabel()"><br>
+            <label for="scheduleversion" id="label">Version</label><br>
+            <input type="text" id="scheduleversion" name="scheduleversion" placeholder="Version" onclick="floatLabel()"><br>
             <label>Status</label><br>
             <input type="checkbox" name="status" value="enabled" checked onclick="statusBox()">
             <label style="font-weight:normal;" id="enabled" for="enabled">Enabled</label><br>
