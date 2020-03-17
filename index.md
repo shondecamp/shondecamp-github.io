@@ -3,6 +3,27 @@
     <link rel="stylesheet" type="text/css" href="Fee Schedules.css">
 </head>
 <body>
+    <div class="sidenav" id="mySidenav">
+        <a class="title">Create Fee Schedule</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <form action="/action_page.php">
+            <label for="schedulecode" id="label">Fee Item Code</label><br>
+            <input type="text" id="schedulecode" name="schedulecode" placeholder="Fee Schedule Code" onclick="floatLabel()"><br>
+            <label for="schedulealias" id="label">Fee Item Code</label><br>
+            <input type="text" id="schedulealias" name="schedulealias" placeholder="Fee Schedule Alias" onclick="floatLabel()"><br>
+            <label>Status</label><br>
+            <input type="checkbox" name="status" value="enabled" checked onclick="statusBox()">
+            <label style="font-weight:normal;" id="enabled" for="enabled">Enabled</label><br>
+            <label for="effdate">Effective Date</label><br>
+            <input type="date" id="effdate" name="effdate"><br>
+            <label for="expdate">Expires</label><br>
+            <input type="date" id="expdate" name="expdate"><br>
+            <label for="comments">Comments</label><br>
+            <textarea name="comments" id="comments" rows="10" cols="30"></textarea><br>
+        </form>
+        <input type="submit" class="save" value="Save" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Edit';">
+        <input type="submit" class="cancel" value="Cancel" onclick="closeNav()">
+    </div>
     <div class="accelaheader">
         <div class="logo">
             <img src="Accela_Logo_RGB.png">
@@ -21,7 +42,7 @@
     <div class="title">
         <a>Fee Schedules</a>
         <div class="buttoncontainer">
-            <button class="addbutton"><img src="plusicon.png">create new</button>
+            <button class="addbutton" onclick="openNav()"><img src="plusicon.png">create new</button>
         </div>
     </div>
     <div class="meta">
