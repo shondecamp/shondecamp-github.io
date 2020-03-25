@@ -232,7 +232,7 @@
                 <br>
                 <div class="readonlywithbutton">
                     <a>1.5.6ABC</a>
-                    <button class="tinybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20New%20Version';">Create New Version</button>
+                    <button class="tinybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Create%20New%20New%20Version';">Create New Version</button>
                 </div>
             </div>
         </div>
