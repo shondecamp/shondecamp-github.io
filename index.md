@@ -18,7 +18,7 @@
             <label style="font-weight:normal;" id="enabled" for="enabled">Enabled</label><br>
             <label for="effdate">Effective Date</label><br>
             <input type="date" id="effdate" name="effdate"><br>
-            <label for="expdate">Expires</label><br>
+            <label for="expdate">Expiration Date</label><br>
             <input type="date" id="expdate" name="expdate"><br>
             <label for="comments">Comments</label><br>
             <textarea name="comments" id="comments" rows="10" cols="30"></textarea><br>
