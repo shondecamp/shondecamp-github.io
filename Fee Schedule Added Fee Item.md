@@ -2,7 +2,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="Fee Schedules.css">
 </head>
-<body>
+<body onload="addFee()">
     <div class="sidenav" id="mySidenav">
         <a class="title">Add a Fee Item</a>
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
