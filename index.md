@@ -73,7 +73,7 @@
                 <th>fee schedule alias</th>
                 <th>version</th>
                 <th>effective</th>
-                <th>expires</th>
+                <th>expiration date</th>
                 <th>status</th>
                 <th></th>
             </tr>
