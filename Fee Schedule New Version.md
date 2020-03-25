@@ -191,7 +191,7 @@
                     </div>
             </form>
         </div>
-        <input type="submit" class="save" value="Save" onclick="addFee()">
+        <input type="submit" class="save" value="Save" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20New%20Version%20Added%20Fee%20Item';">
         <input type="submit" class="cancel" value="Cancel" onclick="closeNav()">
 </div>
     <div class="accelaheader">
