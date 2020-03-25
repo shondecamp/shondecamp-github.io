@@ -255,7 +255,7 @@
         </div> 
         <div class="formfieldwrapper">  
             <div class="textinput">
-                <label>expires</label>
+                <label>expiration date</label>
                 <br>
                 <input value="01/31/2020" onclick="this.select(); swapText()">
             </div>
