@@ -239,10 +239,8 @@
             <div class="readonlywrapper">
                 <label>status</label>
                 <br>
-                <label class="switch">
-                <input type="checkbox" onclick="this.select(); swapText()">
-                <span class="slider"></span>
-                </label>
+                <input type="checkbox" name="status" value="enabled" checked="" onclick="newversionfeestatusBox()">
+<label style="font-weight:normal;" id="newversionfeestatus" for="enabled">Enabled</label>
             </div> 
         </div> 
         <div class="formfieldwrapper">  
