@@ -134,6 +134,7 @@ function statusBox() {
   } else {
     x.innerHTML = "Enabled";
   }
+    document.getElementById("myBtn").disabled = false;
 }
 function editfeestatusBox() {
   var x = document.getElementById("editfeestatus");
@@ -142,6 +143,7 @@ function editfeestatusBox() {
   } else {
     x.innerHTML = "Enabled";
   }
+    document.getElementById("myBtn").disabled = false;
 }
 function newversionfeestatusBox() {
   var x = document.getElementById("newversionfeestatus");
@@ -150,6 +152,7 @@ function newversionfeestatusBox() {
   } else {
     x.innerHTML = "Enabled";
   }
+    document.getElementById("myBtn").disabled = false;
 }
 function feeitem1statusBox() {
   var x = document.getElementById("feeitem1");
@@ -158,6 +161,7 @@ function feeitem1statusBox() {
   } else {
     x.innerHTML = "Enabled";
   }
+    document.getElementById("myBtn").disabled = false;
 }
 function feeitem2statusBox() {
   var x = document.getElementById("feeitem2");
@@ -166,6 +170,7 @@ function feeitem2statusBox() {
   } else {
     x.innerHTML = "Enabled";
   }
+    document.getElementById("myBtn").disabled = false;
 }
 function feeitem3statusBox() {
   var x = document.getElementById("feeitem3");
@@ -174,6 +179,7 @@ function feeitem3statusBox() {
   } else {
     x.innerHTML = "Enabled";
   }
+    document.getElementById("myBtn").disabled = false;
 }
 function feeitem4statusBox() {
   var x = document.getElementById("feeitem4");
@@ -182,6 +188,7 @@ function feeitem4statusBox() {
   } else {
     x.innerHTML = "Enabled";
   }
+    document.getElementById("myBtn").disabled = false;
 }
 function showAca() {
   document.getElementById("aca") .style.display = "block"
