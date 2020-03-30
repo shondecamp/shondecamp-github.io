@@ -291,7 +291,7 @@
                     <td><div class="tableinput">$<input value="50" onclick="this.select(); swapText()"></div></td>
                     <td>Constant</td>
                     <td><input type="checkbox" name="status" value="enabled" checked="" onclick="feeitem4statusBox()">
-<label style="font-weight:normal;" id="feeitem5" for="enabled">Enabled</label></td>
+<label style="font-weight:normal;" id="feeitem4" for="enabled">Enabled</label></td>
                     <td onclick="sureDelete()"><img src="Trash.png"></td>
                 </tr>
                 <tr>
