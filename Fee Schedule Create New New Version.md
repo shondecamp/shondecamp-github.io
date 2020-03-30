@@ -214,7 +214,7 @@
         </div>
     </div>  
     <div class="title">
-        <a>New Version - TL_PC_REN</a>
+        <a>New Version - SF_Fire</a>
         <div class="buttoncontainer">
             <button class="secondarybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';" target="_blank" id="myBtn2">close</button>
             <button class="primarybutton" onclick="myFunction();" target="_blank" id="myBtn" disabled>save</button>
@@ -225,14 +225,14 @@
             <div class="textinput">
                 <label>fee schedule alias</label>
                 <br>
-                <input value="Plumbing contractor renewal fees" onclick="this.select(); swapText()">
+                <input value="SF Fire fee" onclick="this.select(); swapText()">
             </div>
         </div> 
         <div class="formfieldwrapper">  
             <div class="textinput">
                 <label>version</label>
                 <br>
-                <input value="1.5.6ABC" onclick="this.select(); swapText()">
+                <input value="1.0" onclick="this.select(); swapText()">
             </div>
         </div>
         <div class="formfieldwrapper"> 
@@ -247,14 +247,14 @@
             <div class="textinput">
                 <label>effective</label>
                 <br>
-                <input value="01/31/2020" onclick="this.select(); swapText()">
+                <input value="05/01/2020" onclick="this.select(); swapText()">
             </div>
         </div> 
         <div class="formfieldwrapper">  
             <div class="textinput">
                 <label>expiration date</label>
                 <br>
-                <input value="01/31/2020" onclick="this.select(); swapText()">
+                <input value="12/31/2020" onclick="this.select(); swapText()">
             </div>
         </div> 
         <div class="freetextwrapper">  
