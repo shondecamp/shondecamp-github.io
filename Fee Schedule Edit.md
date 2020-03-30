@@ -308,7 +308,7 @@
                     <td>Processing fee</td>
                     <td><div class="tableinput">$<input value="10" onclick="this.select(); swapText()"></div></td>
                     <td>Constant</td>
-                    <td><<input type="checkbox" name="status" value="enabled" checked="" onclick="feeitem3statusBox()">
+                    <td><input type="checkbox" name="status" value="enabled" checked="" onclick="feeitem3statusBox()">
                         <label style="font-weight:normal;" id="feeitem3" for="enabled">Enabled</label></td>
                     <td onclick="sureDelete()"><img src="Trash.png"></td>
                 </tr>
