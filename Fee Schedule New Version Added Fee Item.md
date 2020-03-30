@@ -217,7 +217,7 @@
         <a>New Version - TL_PC_REN</a>
         <div class="buttoncontainer">
             <button class="secondarybutton" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';" target="_blank" id="myBtn2">close</button>
-            <button class="primarybutton" onclick="myFunction();" target="_blank" id="myBtn" disabled>save</button>
+            <button class="primarybutton" onclick="myFunction();" target="_blank" id="myBtn">save</button>
         </div>
     </div>
     <div class="meta">
@@ -232,7 +232,7 @@
             <div class="textinput">
                 <label>version</label>
                 <br>
-                <input value="1.5.6ABC" onclick="this.select(); swapText()">
+                <input value="1.6" onclick="this.select(); swapText()">
             </div>
         </div>
         <div class="formfieldwrapper"> 
