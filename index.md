@@ -84,7 +84,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -93,7 +93,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -102,7 +102,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -111,7 +111,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -120,7 +120,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -129,7 +129,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -138,7 +138,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -147,7 +147,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -156,7 +156,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -165,7 +165,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -174,7 +174,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -183,7 +183,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -192,7 +192,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -201,15 +201,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
-                <td onclick="sureDelete()"><img src="Trash.png"></td>
-            </tr><tr>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -218,7 +210,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -227,7 +219,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -236,15 +228,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
-                <td onclick="sureDelete()"><img src="Trash.png"></td>
-            </tr><tr>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -253,63 +237,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
-                <td onclick="sureDelete()"><img src="Trash.png"></td>
-            </tr><tr>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
-                <td onclick="sureDelete()"><img src="Trash.png"></td>
-            </tr><tr>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
-                <td onclick="sureDelete()"><img src="Trash.png"></td>
-            </tr><tr>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
-                <td onclick="sureDelete()"><img src="Trash.png"></td>
-            </tr><tr>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
-                <td onclick="sureDelete()"><img src="Trash.png"></td>
-            </tr><tr>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
-                <td onclick="sureDelete()"><img src="Trash.png"></td>
-            </tr><tr>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
-                <td onclick="sureDelete()"><img src="Trash.png"></td>
-            </tr><tr>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -318,7 +246,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -327,7 +255,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -336,7 +264,7 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
@@ -345,10 +273,164 @@
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
-                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
                 <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
                 <td onclick="sureDelete()"><img src="Trash.png"></td>
             </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            <tr>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">TL_PC_REN</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Plumbing Contractor Renewal Fees</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">1.5.6ABC</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">01/31/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">09/30/2020</td>
+                <td onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">Enabled</td>
+                <td onclick="sureDelete()"><img src="Trash.png"></td>
+            </tr>
+            
         </tbody>
     </table>
     <div id="snackbarremove"><img src="checkmark.png">Fee Schedule Deleted</div>
