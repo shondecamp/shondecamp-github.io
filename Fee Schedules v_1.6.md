@@ -293,7 +293,7 @@
                     <td><div class="tableinput">$<input value="10" onclick="this.select(); swapText()"></div></td>
                     <td>Constant</td>
                     <td><input type="checkbox" name="status" value="enabled" checked="" onclick="feeitem4statusBox()">
-<label style="font-weight:normal;" id="feeitem5" for="enabled">Enabled</label></td>
+<label style="font-weight:normal;" id="feeitem4" for="enabled">Enabled</label></td>
                     <td onclick="sureDelete()"><img src="Trash.png"></td>
                 </tr>
                 <tr>
@@ -311,7 +311,7 @@
                     <td>Lunar cycle fee</td>
                     <td>$10</td>
                     <td>Variable</td>
-                    <td><input type="checkbox" name="status" value="enabled" checked="" onclick="feeitm2statusBox()">
+                    <td><input type="checkbox" name="status" value="enabled" checked="" onclick="feeitem2statusBox()">
 <label style="font-weight:normal;" id="feeitem2" for="enabled">Enabled</label>
 </td>
                     <td onclick="sureDelete()"><img src="Trash.png"></td>
