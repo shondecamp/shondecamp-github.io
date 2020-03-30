@@ -42,98 +42,192 @@
             <input type="text" id="Defaultvalue" name="Defaultvalue" placeholder="Enter a Default Value"><br>
             <label for="feeindc">Fee Indicator (Qty)</label><br>
             <input type="text" id="feeindc" name="feeindc" placeholder="Enter a Fee Indicator"><br>
+
             <label>Round Fee Item</label><br>
-            <input type="radio" id="rfiyes" name="roundfeeitem" value="yes" onclick="revealInput()">
-            <label style="font-weight:normal;" for="yes">Yes</label>
-            <input type="radio" id="rfino" name="roundfeeitem" value="no" onclick="hideInput()">
-            <label style="font-weight:normal;" for="no">No</label><br>
-            <div class="roundfees" id="roundyesopt">
-                <input type="radio" id="roundyes" name="roundyesopt" value="up" style="margin-bottom:12px;">
-                <label for="up" style="font-weight:normal;">Round Up</label><br>
-                <input type="radio" id="roundyes" name="roundyesopt" value="down" style="margin-bottom:12px;">
-                <label for="down" style="font-weight:normal;">Round Down</label><br>
-                <input type="radio" id="roundyes" name="roundyesopt" value="nearest" style="margin-bottom:12px;">
-                <label for="nearest" style="font-weight:normal;">Round to Nearest</label><br>
-            </div>
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Yes
+                    <input type="radio" name="roundfeeradio" id="rfiyes" onclick="revealInput()">
+                    <span class="radioselect"></span>
+                </label>
+
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No
+                    <input type="radio" name="roundfeeradio" id="rfino" onclick="hideInput()">
+                    <span class="radioselect"></span>
+                </label>
+
+                    <div class="roundfees" id="roundyesopt">
+                    
+                            <label class="radio" style="display:block; font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Round Up
+                                <input name="roundyesradioopt" type="radio">
+                                <span class="radioselect"></span>
+                            </label>
+
+                            <label class="radio" style="display:block; font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Round Down
+                                <input name="roundyesradioopt" type="radio">
+                                <span class="radioselect"></span>
+                            </label>
+
+                            <label class="radio" style="display:block; font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Round To Nearest
+                                <input name="roundyesradioopt" type="radio">
+                                <span class="radioselect"></span>
+                            </label>
+                        
+                    </div><br>
+
+           
             <label>Coupon Item</label><br>
-            <input type="radio" id="yes" name="couponitem" value="yes" onclick="showCoupon()">
-            <label style="font-weight:normal;" for="yes">Yes</label>
-            <input type="radio" id="no" name="couponitem" value="no" onclick="hideCoupon()">
-            <label style="font-weight:normal;" for="no">No</label><br>
-            <div class="couponitemdates" id="couponitemdates" style="display:none;">
-                <label for="effdate">Effective Date</label><br>
-                <input type="date" id="effdate" name="effdate"><br>
-                <label for="disdate">Disabled Date</label><br>
-                <input type="date" id="disdate" name="disdate"><br>
-            </div>
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Yes
+                    <input type="radio" name="coupitradio" id="rfiyes" onclick="showCoupon()">
+                    <span class="radioselect"></span>
+                </label>
+
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No
+                    <input type="radio" name="coupitradio" id="rfino" onclick="hideCoupon()">
+                    <span class="radioselect"></span>
+                </label>
+
+                    <div class="couponitemdates" id="couponitemdates" style="display:none;">
+                        <label for="effdate">Effective Date</label><br>
+                        <input type="date" id="effdate" name="effdate"><br>
+                        <label for="disdate">Disabled Date</label><br>
+                        <input type="date" id="disdate" name="disdate"><br>
+                    </div><br>
+
             <label>Required</label><br>
-            <input type="radio" id="yes" name="required" value="yes">
-            <label style="font-weight:normal;" for="yes">Yes</label>
-            <input type="radio" id="no" name="required" value="no">
-            <label style="font-weight:normal;" for="no">No</label><br>
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Yes
+                    <input type="radio" name="required">
+                    <span class="radioselect"></span>
+                </label>
+
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No
+                    <input type="radio" name="required">
+                    <span class="radioselect"></span>
+                </label><br>
+          
             <label>Auto Invoiced</label><br>
-            <input type="radio" id="yes" name="autoinvoice" value="yes">
-            <label style="font-weight:normal;" for="yes">Yes</label>
-            <input type="radio" id="no" name="autoinvoice" value="no">
-            <label style="font-weight:normal;" for="no">No</label><br>
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Yes
+                    <input type="radio" name="autoinvoice">
+                    <span class="radioselect"></span>
+                </label>
+
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No
+                    <input type="radio" name="autoinvoice">
+                    <span class="radioselect"></span>
+                </label><br>
+
             <label>Auto Assessed</label><br>
-            <input type="radio" id="yes" name="autoassess" value="yes">
-            <label style="font-weight:normal;" for="yes">Yes</label>
-            <input type="radio" id="no" name="autoassess" value="no">
-            <label style="font-weight:normal;" for="no">No</label><br>
-            <label for="qty">Quantity</label><br>
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Yes
+                    <input type="radio" name="autoassess">
+                    <span class="radioselect"></span>
+                </label>
+
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No
+                    <input type="radio" name="autoassess">
+                    <span class="radioselect"></span>
+                </label><br>
+
+            <label>Quantity</label><br>
             <input type="text" id="qty" name="qty" placeholder="Enter a Quantity"><br>
+
             <label for="comments">Comments</label><br>
             <textarea name="comments" id="comments" rows="10" cols="30"></textarea><br>
         </form>
+
         <button id="button" onclick="showAdvanced()">Show Advanced Settings</button><br>
         <div class="advanced" id="advanced" style="display:none;">
             <form action="/action_page.php">
-                <label for="priority">Priority</label><br>
-                <input type="text" id="priority" name="priority" placeholder="Enter a priority"><br>
-                <label for="min">Minimum</label><br>
-                <input type="text" id="min" name="min" placeholder="Enter a min"><br>
-                <label for="max">Maximum</label><br>
-                <input type="text" id="max" name="max" placeholder="Enter a max"><br>
-                <label for="seq">Sequence for Calculation</label><br>
-                <input type="text" id="seq" name="seq" placeholder="Enter sequence"><br>
-                <label for="dis">Display Order</label><br>
-                <input type="text" id="dis" name="dis" placeholder="Enter an order"><br>
-                <label>Display in ACA</label><br>
-                <input type="radio" id="yes" name="acadisp" value="yes" onclick="showAca()">
-                <label style="font-weight:normal;" for="yes">Yes</label>
-                <input type="radio" id="no" name="acadisp" value="no" onclick="hideAca()">
-                <label style="font-weight:normal;" for="no">No</label>
-                <input type="radio" id="yes" name="acadisp" value="yes" onclick="hideAca()">
-                <label style="font-weight:normal;" for="yes">Read Only</label><br>
-                <div class="aca" id="aca" style="display:none; margin-left:30px">
-                    <label>Pay Later in ACA</label><br>
-                    <input type="radio" id="yes" name="acapaylater" value="yes">
-                    <label style="font-weight:normal;" for="yes">Yes</label>
-                    <input type="radio" id="no" name="acapaylater" value="no">
-                    <label style="font-weight:normal;" for="no">No</label><br>
-                    <label>Required in ACA</label><br>
-                    <input type="radio" id="yes" name="acareq" value="yes">
-                    <label style="font-weight:normal;" for="yes">Yes</label>
-                    <input type="radio" id="no" name="acareq" value="no">
-                    <label style="font-weight:normal;" for="no">No</label><br>
-                    <label>Reufndable in ACA</label><br>
-                    <input type="radio" id="yes" name="acaref" value="yes">
-                    <label style="font-weight:normal;" for="yes">Yes</label>
-                    <input type="radio" id="no" name="acaref" value="no">
-                    <label style="font-weight:normal;" for="no">No</label><br>
-                </div>
+
+            <label for="priority">Priority</label><br>
+            <input type="text" id="priority" name="priority" placeholder="Enter a priority"><br>
+
+            <label for="min">Minimum</label><br>
+            <input type="text" id="min" name="min" placeholder="Enter a min"><br>
+
+            <label for="max">Maximum</label><br>
+            <input type="text" id="max" name="max" placeholder="Enter a max"><br>
+
+            <label for="seq">Sequence for Calculation</label><br>
+            <input type="text" id="seq" name="seq" placeholder="Enter sequence"><br>
+
+            <label for="dis">Display Order</label><br>
+            <input type="text" id="dis" name="dis" placeholder="Enter an order"><br>
+
+            <label>Display in ACA</label><br>
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Yes
+                    <input type="radio" name="acadisp" onclick="showAca()">
+                    <span class="radioselect"></span>
+                </label>
+
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No
+                    <input type="radio" name="acadisp" onclick="hideAca()">
+                    <span class="radioselect"></span>
+                </label>
+
+                <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Read Only
+                    <input type="radio" name="acadisp" onclick="hideAca()">
+                    <span class="radioselect"></span>
+                </label>
+
+                    <div class="aca" id="aca" style="display:none; margin-left:30px">
+
+                        <label>Pay Later in ACA</label><br>
+                            <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Yes
+                                <input type="radio" name="lateraca">
+                                <span class="radioselect"></span>
+                            </label>
+
+                            <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No
+                                <input type="radio" name="lateraca">
+                                <span class="radioselect"></span>
+                            </label><br>
+
+                        <label>Required in ACA</label><br>
+                            <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Yes
+                                <input type="radio" name="reqaca">
+                                <span class="radioselect"></span>
+                            </label>
+
+                            <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No
+                                <input type="radio" name="reqaca">
+                                <span class="radioselect"></span>
+                            </label><br>
+
+                        <label>Reufndable in ACA</label><br>
+                            <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Yes
+                                <input type="radio" name="refaca">
+                                <span class="radioselect"></span>
+                            </label>
+
+                            <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No
+                                <input type="radio" name="refaca">
+                                <span class="radioselect"></span>
+                            </label>
+
+                    </div><br>
+
                 <label>Assess Adjustment on Recalculation</label><br>
-                <input type="radio" id="yes" name="acadisp" value="yes">
-                <label style="font-weight:normal;" for="yes">Yes</label>
-                <input type="radio" id="no" name="acadisp" value="no">
-                <label style="font-weight:normal;" for="no">No</label><br>
+                    <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Yes
+                        <input type="radio" name="assadjrec">
+                        <span class="radioselect"></span>
+                    </label>
+
+                    <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No
+                        <input type="radio" name="assadjrec">
+                        <span class="radioselect"></span>
+                    </label><br>
+
                 <label>Adjustment Credits Allowed</label><br>
-                <input type="radio" id="yes" name="acadisp" value="yes">
-                <label style="font-weight:normal;" for="yes">Yes</label>
-                <input type="radio" id="no" name="acadisp" value="no">
-                <label style="font-weight:normal;" for="no">No</label><br>
-                <label for="payperiod">Payment Period</label><br>
+                    <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Yes
+                        <input type="radio" name="adjcredall">
+                        <span class="radioselect"></span>
+                    </label>
+
+                    <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No
+                        <input type="radio" name="adjcredall">
+                        <span class="radioselect"></span>
+                    </label><br>
+
+                
+                <label>Payment Period</label><br>
                 <div class="dropdown">
                     <select id="payperiod" name="payperiod">
                         <option value="none"></option>
@@ -142,56 +236,67 @@
                         <option value="Fixed Fee by Range">Plan Initial</option>
                     </select><br>
                 </div>
+
                 <label for="subgroup">Subgroup</label><br>
                 <input type="text" id="subgroup" name="subgroup" placeholder="Enter a subgroup"><br>
+
                 <label>Fee Allocation</label><br>
-                <input type="radio" id="yes" name="feeallocation" value="none" onclick="hideActcodes()">
-                <label for="yes" style="font-weight:normal;">No Allocation</label>
-                <input type="radio" id="no" name="feeallocation" value="percent" onclick="showActcodesperc()">
-                <label for="no" style="font-weight:normal;">Percentage</label>
-                <input type="radio" id="no" name="feeallocation" value="fixed" onclick="showActcodesfix()">
-                <label for="no" style="font-weight:normal;">Fixed Amounts and Residual</label><br>
-                <div style="display:none; position:relative; left:30px;" id="codes">
-                    <div class="gridfield">
-                        <label for="accountcode">Account Code 1</label><br>
-                        <input type="text" id="accountcodename" name="accountcode" class="accountcode">
-                    </div>
-                    <div class="gridfield">
-                        <label for="perc" class="perc">Percentage</label><br>
-                        <input class="perc" type="text" id="percentage" name="accountcode" placeholder="%" style="min-width:50px; width:120px;">
-                    </div>
-                    <div class="gridfield">
-                        <label for="fixed" class="fixed">Amount</label><br>
-                        <input class="fixed" type="text" class="fixed" name="fixed" style="min-width:50px; width:120px;" placeholder="$">
-                    </div><br>
-                    <div class="gridfield">
-                        <label for="accountcode">Account Code 2</label><br>
-                        <input type="text" id="accountcodename2" name="accountcode" class="accountcode">
-                    </div>
-                    <div class="gridfield">
-                        <label for="perc" class="perc">Percentage</label><br>
-                        <input class="perc" type="text" id="percentage2" name="accountcode" placeholder="%" style="min-width:50px; width:120px;">
-                    </div>
-                    <div class="gridfield">
-                        <label for="fixed" class="fixed">Amount</label><br>
-                        <input class="fixed" type="text" class="fixed" name="fixed" style="min-width:50px; width:120px;" placeholder="$">
-                    </div><br>
-                    <div class="gridfield">
-                        <label for="accountcode">Account Code 3</label><br>
-                        <input type="text" id="accountcodename2" name="accountcode" class="accountcode">
-                    </div>
-                    <div class="gridfield">
-                        <label for="perc" class="perc">Percentage</label><br>
-                        <input class="perc" type="text" id="percentage2" name="accountcode" placeholder="%" style="min-width:50px; width:120px;">
-                    </div>
-                    <div class="gridfield">
-                        <label for="fixed" class="fixed">Amount</label><br>
-                        <input class="fixed" type="text" class="fixed" name="fixed" style="min-width:50px; width:120px;" placeholder="$">
-                        </div><br>
-                    </div>
+                    <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">No Allocation
+                        <input type="radio" name="feealloc" onclick="hideActcodes()">
+                        <span class="radioselect"></span>
+                    </label>
+
+                    <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Percentage
+                        <input type="radio" name="feealloc" onclick="showActcodesperc()">
+                        <span class="radioselect"></span>
+                    </label>
+
+                    <label class="radio" style="font-weight:normal; font-size:16px; color:#414A56; text-transform:capitalize;">Fixed Amt./Residual
+                        <input type="radio" name="feealloc" onclick="showActcodesfix()">
+                        <span class="radioselect"></span>
+                    </label>
+
+                        <div style="display:none; position:relative; left:30px;" id="codes">
+                            <div class="gridfield">
+                                <label for="accountcode">Account Code 1</label><br>
+                                <input type="text" id="accountcodename" name="accountcode" class="accountcode">
+                            </div>
+                            <div class="gridfield">
+                                <label for="perc" class="perc">Percentage</label><br>
+                                <input class="perc" type="text" id="percentage" name="accountcode" placeholder="%" style="min-width:50px; width:120px;">
+                            </div>
+                            <div class="gridfield">
+                                <label for="fixed" class="fixed">Amount</label><br>
+                                <input class="fixed" type="text" class="fixed" name="fixed" style="min-width:50px; width:120px;" placeholder="$">
+                            </div><br>
+                            <div class="gridfield">
+                                <label for="accountcode">Account Code 2</label><br>
+                                <input type="text" id="accountcodename2" name="accountcode" class="accountcode">
+                            </div>
+                            <div class="gridfield">
+                                <label for="perc" class="perc">Percentage</label><br>
+                                <input class="perc" type="text" id="percentage2" name="accountcode" placeholder="%" style="min-width:50px; width:120px;">
+                            </div>
+                            <div class="gridfield">
+                                <label for="fixed" class="fixed">Amount</label><br>
+                                <input class="fixed" type="text" class="fixed" name="fixed" style="min-width:50px; width:120px;" placeholder="$">
+                            </div><br>
+                            <div class="gridfield">
+                                <label for="accountcode">Account Code 3</label><br>
+                                <input type="text" id="accountcodename2" name="accountcode" class="accountcode">
+                            </div>
+                            <div class="gridfield">
+                                <label for="perc" class="perc">Percentage</label><br>
+                                <input class="perc" type="text" id="percentage2" name="accountcode" placeholder="%" style="min-width:50px; width:120px;">
+                            </div>
+                            <div class="gridfield">
+                                <label for="fixed" class="fixed">Amount</label><br>
+                                <input class="fixed" type="text" class="fixed" name="fixed" style="min-width:50px; width:120px;" placeholder="$">
+                                </div><br>
+                        </div>
             </form>
         </div>
-        <input type="submit" class="save" value="Save" onclick="window.location.href = 'https://shondecamp.github.io/shondecamp-github.io/Fee%20Schedule%20Edit';">
+        <input type="submit" class="save" value="Save" onclick="addFee()">
         <input type="submit" class="cancel" value="Cancel" onclick="closeNav()">
 </div>
     <div class="accelaheader">
