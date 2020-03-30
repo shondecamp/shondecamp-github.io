@@ -299,7 +299,7 @@
                     <td>Lunar cycle fee</td>
                     <td>$10</td>
                     <td>Variable</td>
-                    <td><input type="checkbox" name="status" value="enabled" checked="" onclick="feeitm2statusBox()">
+                    <td><input type="checkbox" name="status" value="enabled" checked="" onclick="feeitem2statusBox()">
                         <label style="font-weight:normal;" id="feeitem2" for="enabled">Enabled</label></td>
                     <td onclick="sureDelete()"><img src="Trash.png"></td>
                 </tr>
