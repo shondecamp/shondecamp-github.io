@@ -2,7 +2,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="Fee Schedules.css">
 </head>
-<body>
+<body onload="addFee()">
     <div class="sidenav" id="mySidenav">
         <a class="title">Add a Fee Item</a>
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -277,7 +277,7 @@
   <div class="spacer"></div>
    <div id="snackbaredit">Edits Saved</div>
   <div id="snackbarremove">Fee Item Removed</div>
-  <div id="snackbaradd">Fee Item Added</div>
+  <div id="snackbaradd"><img src="checkmark.png">Fee Schedule Created!</div>
   <script src="Fee Schedules.js"></script>
 </body>
 </html>
