@@ -239,10 +239,8 @@
             <div class="readonlywrapper">
                 <label>status</label>
                 <br>
-                <label class="switch">
-                <input type="checkbox" onclick="this.select(); swapText()">
-                <span class="slider"></span>
-                </label>
+                <input type="checkbox" name="status" value="enabled" checked="" onclick="newversionfeestatusBox()">
+<label style="font-weight:normal;" id="newversionfeestatus" for="enabled">Enabled</label>
             </div> 
         </div> 
         <div class="formfieldwrapper">  
@@ -291,10 +289,8 @@
                     <td>Fees for printing and ink</td>
                     <td><div class="tableinput">$<input value="10" onclick="this.select(); swapText()"></div></td>
                     <td>Constant</td>
-                    <td><label class="switch" style="margin-top:10px;">
-                        <input type="checkbox" onclick="this.select(); swapText()">
-                        <span class="slider"></span>
-                        </label></td>
+                    <td><input type="checkbox" name="status" value="enabled" checked="" onclick="feeitem4statusBox()">
+<label style="font-weight:normal;" id="feeitem5" for="enabled">Enabled</label></td>
                     <td onclick="sureDelete()"><img src="Trash.png"></td>
                 </tr>
                 <tr>
@@ -302,10 +298,9 @@
                     <td>Fees for printing and ink</td>
                     <td><div class="tableinput">$<input value="10" onclick="this.select(); swapText()"></div></td>
                     <td>Constant</td>
-                    <td><label class="switch" style="margin-top:10px;">
-                        <input type="checkbox" onclick="this.select(); swapText()">
-                        <span class="slider"></span>
-                        </label></td>
+                    <td><input type="checkbox" name="status" value="enabled" checked="" onclick="feeitem1statusBox()">
+<label style="font-weight:normal;" id="feeitem1" for="enabled">Enabled</label>
+</td>
                     <td onclick="sureDelete()"><img src="Trash.png"></td>
                 </tr>
                 <tr>
@@ -313,10 +308,9 @@
                     <td>Lunar cycle fee</td>
                     <td>$10</td>
                     <td>Variable</td>
-                    <td><label class="switch" style="margin-top:10px;">
-                        <input type="checkbox" onclick="this.select(); swapText()">
-                        <span class="slider"></span>
-                        </label></td>
+                    <td><input type="checkbox" name="status" value="enabled" checked="" onclick="feeitm2statusBox()">
+<label style="font-weight:normal;" id="feeitem2" for="enabled">Enabled</label>
+</td>
                     <td onclick="sureDelete()"><img src="Trash.png"></td>
                 </tr>
                 <tr>
@@ -324,10 +318,8 @@
                     <td>Processing fee</td>
                     <td><div class="tableinput">$<input value="10" onclick="this.select(); swapText()"></div></td>
                     <td>Constant</td>
-                    <td><label class="switch" style="margin-top:10px;">
-                        <input type="checkbox" onclick="this.select(); swapText()">
-                        <span class="slider"></span>
-                        </label></td>
+                    <td><input type="checkbox" name="status" value="enabled" checked="" onclick="feeitem3statusBox()">
+<label style="font-weight:normal;" id="feeitem3" for="enabled">Enabled</label></td>
                     <td onclick="sureDelete()"><img src="Trash.png"></td>
                 </tr>
             </tbody>
