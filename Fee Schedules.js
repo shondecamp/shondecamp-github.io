@@ -135,6 +135,54 @@ function statusBox() {
     x.innerHTML = "Enabled";
   }
 }
+function editfeestatusBox() {
+  var x = document.getElementById("editfeestatus");
+  if (x.innerHTML === "Enabled") {
+    x.innerHTML = "Disabled";
+  } else {
+    x.innerHTML = "Enabled";
+  }
+}
+function newversionfeestatusBox() {
+  var x = document.getElementById("newversionfeestatus");
+  if (x.innerHTML === "Enabled") {
+    x.innerHTML = "Disabled";
+  } else {
+    x.innerHTML = "Enabled";
+  }
+}
+function feeitem1statusBox() {
+  var x = document.getElementById("feeitem1");
+  if (x.innerHTML === "Enabled") {
+    x.innerHTML = "Disabled";
+  } else {
+    x.innerHTML = "Enabled";
+  }
+}
+function feeitem2statusBox() {
+  var x = document.getElementById("feeitem2");
+  if (x.innerHTML === "Enabled") {
+    x.innerHTML = "Disabled";
+  } else {
+    x.innerHTML = "Enabled";
+  }
+}
+function feeitem3statusBox() {
+  var x = document.getElementById("feeitem3");
+  if (x.innerHTML === "Enabled") {
+    x.innerHTML = "Disabled";
+  } else {
+    x.innerHTML = "Enabled";
+  }
+}
+function feeitem4statusBox() {
+  var x = document.getElementById("feeitem4");
+  if (x.innerHTML === "Enabled") {
+    x.innerHTML = "Disabled";
+  } else {
+    x.innerHTML = "Enabled";
+  }
+}
 function showAca() {
   document.getElementById("aca") .style.display = "block"
 }
