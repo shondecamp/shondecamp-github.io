@@ -5,6 +5,41 @@ body{
     margin:0;
     padding:0;
 }
+h1{
+  display:none;
+}
+.container-lg {
+  max-width: 5000px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.px-3 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.my-5 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.markdown-body table {
+    display:inline-table;
+}
+.markdown-body table tr{
+    border-top:none;
+    background: #f9fafb;
+}
+.markdown-body table th, .markdown-body table td {
+    border:none;
+    padding: 0px 5px 0px 32px;
+}
+.markdown-body img {
+    max-width: 100%;
+    box-sizing: content-box;
+    background-color: none;
+}
+.markdown-body table tr:nth-child(2n) {
+    background-color: white;
+}
 .mainbody {
     position:fixed;
     height: 100vh;
