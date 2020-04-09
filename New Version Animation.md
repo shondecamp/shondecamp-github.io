@@ -70,6 +70,7 @@ header {
 .main {
     display:flex;
     position:relative;
+    top:50px;
 }
 .details {
     height:100vh;
@@ -173,7 +174,7 @@ header {
         </div>
     </div>
 </div>
-<div class="main">
+<div class="main" style="top:50px;">
     <div class="details">
         <button class="new" onClick = "overLay()">New Version</button>
         <div class="titleskeleton"></div>
