@@ -70,7 +70,6 @@ header {
 .main {
     display:flex;
     position:relative;
-    top:50px;
 }
 .details {
     height:100vh;
