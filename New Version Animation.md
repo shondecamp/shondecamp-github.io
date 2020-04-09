@@ -5,7 +5,12 @@ body{
     margin:0;
     padding:0;
 }
-
+.mainbody {
+    position:fixed;
+    height: 100vh;
+    width:100vw;
+    z-index:1;
+}
 .newwindow {
   width:250px;
   height:100%;  
@@ -29,6 +34,8 @@ header {
 }
 .main {
     display:flex;
+    position:relative;
+    top:50px;
 }
 .details {
     height:100vh;
@@ -96,7 +103,7 @@ header {
 </style>
 </head>
 <body>
-
+<div class="mainbody">
 <header>
     <div class="titleskeleton"></div>
 </div>
@@ -167,7 +174,7 @@ header {
         <button class="new" type="button" onClick = modalExpand()>save</button>
     </div>
 </div>
-
+</div>
 
 
 
