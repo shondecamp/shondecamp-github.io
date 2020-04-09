@@ -70,7 +70,6 @@ header {
 .main {
     display:flex;
     position:relative;
-    top:50px;
 }
 .details {
     height:100vh;
@@ -134,6 +133,7 @@ header {
     border:none;
     border-radius:4px;
     overflow:hidden;
+    font-size:12px;
 }
 </style>
 </head>
@@ -141,7 +141,7 @@ header {
 <div class="mainbody">
 <header>
     <div class="titleskeleton"></div>
-</div>
+</header>
 <div class="newwindow" id="chartdiv">
     <div class="main">
         <div class="details">
@@ -199,14 +199,13 @@ header {
         <div class="tableskeleton"></div>
         <div class="tableskeleton"></div>
         <div class="tableskeleton"></div>
-        
     </div>
     <div class="overlay" id="overlay">
         <div class="titleskeleton"></div>
         <div class="fakeinput"></div>
         <div class="fakeinput"></div>
         <div class="fakeinput"></div>
-        <button class="new" type="button" onClick = modalExpand()>save</button>
+        <button class="new" type="button" onClick = "modalExpand()">save</button>
     </div>
 </div>
 </div>
