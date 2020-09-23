@@ -1,5 +1,5 @@
 <html>
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     body{
         margin:0px;
@@ -157,6 +157,7 @@
         padding:20px;
         margin:0;
         transition: top .25s;
+        visibility:hidden;
     }
     .modaltitle{
         padding:0;
@@ -593,6 +594,7 @@
 </div>
  <script>
      function openSettings(){
+         document.getElementById("settings") .style.visibility = "visible";
          document.getElementById("settings") .style.top = "51px";
      }
      function closeSettings(){
