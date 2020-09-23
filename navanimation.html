@@ -599,12 +599,15 @@
      }
      function closeSettings(){
          document.getElementById("settings") .style.top = "100vh";
+         document.getElementById("settings") .style.visibility = "hidden";
      }
      function openSort(){
+         document.getElementById("sort") .style.visibility = "visible";
          document.getElementById("sort") .style.top = "51px";
      }
      function closeSort(){
          document.getElementById("sort") .style.top = "100vh";
+         document.getElementById("sort") .style.visibility = "hidden";
      }
      var header = document.getElementById("navbar");
         var btns = header.getElementsByClassName("nav-item");
