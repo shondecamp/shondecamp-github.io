@@ -188,6 +188,17 @@
         display:flex;
         justify-content: space-between;
         font-family:'Open Sans', sans-serif;
+    
+        .modallist{
+        font-family: 'Open Sans';
+        font-size:14px;
+        color:#202020;
+        padding: 20px 0px;
+    }
+    .modallist a{
+        padding:12px 0px;
+        float:left;
+        clear:left;
     }
     .joblist{
         width:100vw;
@@ -216,6 +227,12 @@
     <div class="modal" id="settings">
         <div class="modaltitle">Settings
         <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="#414A56" onclick="closeSettings()"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </div>
+        <div class="modallist">
+            <a>Customize Daily Job List</a>
+            <a>Error Log</a>
+            <a>Download for Offline</a>
+            <a>Log Out</a>
         </div>
     </div>
     <div class="modal" id="sort">
