@@ -206,6 +206,7 @@
         color:#202020;
         text-transform:capitalize;
         font-weight:400;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
     }
     .joblist{
         width:100vw;
@@ -745,6 +746,7 @@
     </div>
 </div>
  <script>
+	 document.addEventListener("touchstart", function(){}, true);
      function openSettings(){
          document.getElementById("settings") .style.visibility = "visible";
          document.getElementById("settings") .style.top = "51px";
