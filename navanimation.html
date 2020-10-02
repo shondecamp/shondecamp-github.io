@@ -221,6 +221,85 @@
         font-family:'Open Sans', sans-serif;
         overflow-x:hidden;
     }
+       .container {
+  display: flex;
+  align-items:center;
+  position: relative;
+  padding-left: 40px;
+  height:24px;
+  margin-bottom:16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 23px;
+  width: 23px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #B1B1B1
+}
+.container input:checked ~ .checkmark {
+  background-color: white;
+  border:2px solid #17A1D1;
+  height: 22px;
+  width:22px;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+ 
+}
+.container .checkmark:after {
+ 	top: 2px;
+	left: 2px;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background:#17A1D1;
+    border:none;
+}
+.disabled{
+    margin-top:14px;
+    width: calc(100vw - 40px);
+    height:52px;
+    background:#E9E9E9;
+    border:none;
+    border-radius:6px;
+    color:white;
+    font-family:'Open Sans';
+    font-weight:700;
+    font-size:19px;
+    text-transform:uppercase;
+}
+.enabled{
+    margin-top:14px;
+    width: calc(100vw - 40px);
+    height:52px;
+    background:#17A1D1;
+    border:none;
+    border-radius:6px;
+    color:white;
+    font-family:'Open Sans';
+    font-weight:700;
+    font-size:19px;
+    text-transform:uppercase;
+    box-shadow:0px 0px 8px #868686;
+}
 </style>
     
 <body>
@@ -238,6 +317,25 @@
     <div class="modal" id="sort">
         <div class="modaltitle">Order Jobs by ...
         <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="#414A56" onclick="closeSort()"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </div>
+        <div class="modallist">
+            <label onclick="enableButton()" class="container">Most Efficient Route
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Type
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Scheduled Date
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Choose Custom Order
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <button class="disabled" id="gobutton">GO</button>
         </div>
     </div>
     <div class="mainnav">
@@ -651,7 +749,10 @@
      }
      function closeSort(){
          document.getElementById("sort") .style.top = "100vh";
-         document.getElementById("sort") .style.visibility = "hidden";
+         document.getElementById("gobutton") .className = "disabled";
+         var ele = document.getElementsByName("radio");
+   for(var i=0;i<ele.length;i++)
+      ele[i].checked = false;
      }
      var header = document.getElementById("navbar");
         var btns = header.getElementsByClassName("nav-item");
@@ -671,6 +772,9 @@
         document.getElementById("content") .style.left = "-200vw";
     }
         }
+     function enableButton(){
+        document.getElementById("gobutton") .className = "enabled";
+    }
 </script> 
 
 </body>
