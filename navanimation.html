@@ -787,12 +787,18 @@
   });
     function showRecent(){
         document.getElementById("content") .style.left = "-100vw";
+	    document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
     function showJoblist(){
         document.getElementById("content") .style.left = "0vw";
+	    document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
     function showSavedquery(){
         document.getElementById("content") .style.left = "-200vw";
+	    document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
         }
      function enableButton(){
@@ -813,8 +819,7 @@
         document.getElementById("content") .style.display = "flex";
         document.getElementById("input") .value = '';
     }
-	 $('mainnav').on("click",function(){
-      $(window).scrollTop(0);
+	
 });
 </script> 
 
