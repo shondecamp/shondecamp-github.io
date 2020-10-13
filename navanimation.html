@@ -818,6 +818,8 @@
         document.getElementById("navbar") .style.display = "none";
         document.getElementById("mainnav") .style.boxShadow = "none";
         document.getElementById("content") .style.display = "none";
+	document.getElementById("search") .style.height = "50px";
+        document.getElementById("search") .style.top = "14px";
     }
     function unSearch(){
         document.getElementById("searchicon") .style.display = "block";
@@ -826,12 +828,9 @@
         document.getElementById("mainnav") .style.boxShadow = "0px 2px 8px #868686";
         document.getElementById("content") .style.display = "flex";
         document.getElementById("input") .value = '';
+	document.getElementById("search") .style.height = "36px";
+        document.getElementById("search") .style.top = "0px";
     }
-	
-	 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0; 
-}
 </script> 
 
 </body>
