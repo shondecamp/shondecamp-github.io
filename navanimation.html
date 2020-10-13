@@ -815,8 +815,10 @@
     }
 	
 	 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0; 
+ var body = document.body; 
+        var html = document.documentElement; 
+        body.scrollTop = 0;
+        html.scrollTop = 0;
 }
 </script> 
 
