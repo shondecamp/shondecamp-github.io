@@ -794,12 +794,19 @@
   });
     function showRecent(){
         document.getElementById("content") .style.left = "-100vw";
+	document.getElementById("content") .style.left = "-100vw";
+        document.getElementById("joblist").scrollTop = 0;
+        document.getElementById("savedquery").scrollTop = 0;
     }
     function showJoblist(){
         document.getElementById("content") .style.left = "0vw";
+	document.getElementById("recent").scrollTop = 0;
+        document.getElementById("savedquery").scrollTop = 0;
     }
     function showSavedquery(){
         document.getElementById("content") .style.left = "-200vw";
+	document.getElementById("joblist").scrollTop = 0;
+        document.getElementById("recent").scrollTop = 0;
     }
         }
      function enableButton(){
