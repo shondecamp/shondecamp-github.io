@@ -172,6 +172,20 @@
         fill:#FF8686;
         padding:0px 2px;
     }
+	.selector{
+        position:fixed;
+        top: 122px;
+        right: 80px;
+        border-radius: 24px;
+        box-shadow:0px -2px 8px #868686;
+        width:160px;
+        height: 160px;
+        z-index:999;
+        background-color:white;
+        padding:0px 0px 20px 20px;
+        margin:0;
+        visibility: hidden;
+    }
     .modal{
         position:fixed;
         top:125vh;
@@ -337,6 +351,13 @@
 </style>
     
 <body>
+    <div class="selector" id="selector">
+        <div class="modallist">
+            <a>Create New Job</a>
+            <a>Search for a Job</a>
+            <a onclick="dontAdd()">Cancel</a>
+        </div>
+    </div>
     <div class="modal" id="settings">
         <div class="modaltitle">Settings
         <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 26 26" width="26" fill="#414A56" onclick="closeSettings()"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
@@ -408,7 +429,7 @@
                     <div style="width:33%;">
                         <div style="display:flex; justify-content:flex-end;">
                             <div style="padding-right:17px;">
-                                <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 26 26" width="26" fill="#2EB383"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg>
+                                <svg onclick="jobAdd()" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 26 26" width="26" fill="#2EB383"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg>
                             </div>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 26 26" width="26" fill="#414A56" onclick="openSort()"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"/></svg>
@@ -429,7 +450,7 @@
             <div style="width:33%;">
                 <div style="display:flex; justify-content:flex-end;">
                     <div style="padding-right:17px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 26 26" width="26" fill="#2EB383"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg>
+                        <svg onclick="jobAdd()" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 26 26" width="26" fill="#2EB383"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg>
                     </div>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 26 26" width="26" fill="#414A56" onclick="openSort()"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"/></svg>
@@ -873,6 +894,13 @@ function showMap(){
 function showList(){
     document.getElementById("map") .style.display = "none";
     document.getElementById("list") .style.display = "block";
+}
+	 function jobAdd(){
+    document.getElementById("selector") .style.visibility = "visible"
+}
+
+function dontAdd(){
+    document.getElementById("selector") .style.visibility = "hidden";
 }
 </script> 
 
