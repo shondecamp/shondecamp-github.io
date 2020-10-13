@@ -847,16 +847,22 @@
 	document.getElementById("content") .style.left = "-100vw";
         document.getElementById("joblist").scrollTop = 0;
         document.getElementById("savedquery").scrollTop = 0;
+	document.getElementById("map") .style.display = "none";
+	document.getElementById("content") .style.display = "flex";
     }
     function showJoblist(){
         document.getElementById("content") .style.left = "0vw";
 	document.getElementById("recent").scrollTop = 0;
         document.getElementById("savedquery").scrollTop = 0;
+	document.getElementById("map") .style.display = "none";
+	document.getElementById("content") .style.display = "flex";
     }
     function showSavedquery(){
         document.getElementById("content") .style.left = "-200vw";
 	document.getElementById("joblist").scrollTop = 0;
         document.getElementById("recent").scrollTop = 0;
+	document.getElementById("map") .style.display = "none";
+	document.getElementById("content") .style.display = "flex";
     }
         }
      function enableButton(){
