@@ -15,6 +15,9 @@ tr{
     height: 42px;
     margin-left: 12px;
 }
+tr:hover{
+    background:#E7E5E4 !important;
+}
 td, th {
   border-bottom: 1px solid #dddddd;
   text-align: left;
@@ -142,7 +145,7 @@ input{
         <tr>
           <td onmouseover="showEdit()" onmouseout="hideEdit()">
             <div class="active" id="first">
-                <input id="linked1" type="text" name="column1" value="Link to New Page" class="linked" disabled>
+                <input id="linked1" type="text" name="column1" value="Link to New Page" class="linked" disabled href="https://ds-elements.netlify.app/data"> 
                 <img id="check" class="okgo" src="check.png" onclick="hideButtons2()">
                 <img class="okgo" src="x.png" onclick="hideButtons2()">
                 <img onclick="enableEdit()" class="icon" src="edit.png" id="img">
@@ -170,7 +173,7 @@ input{
         <tr>
             <td onmouseover="showEdit2()" onmouseout="hideEdit2()">
               <div class="active" id="first">
-                  <input id="linked1" type="text" name="column1" value="Another Link to New Page" class="linked" disabled>
+                  <input id="linked1" type="text" name="column1" value="Another Link to New Page" class="linked" disabled href="https://ds-elements.netlify.app/data">
                   <img class="icon" src="edit.png" id="img2">
               </div>
           </td>
@@ -193,7 +196,7 @@ input{
           </tr>
           <tr>
             <td onmouseover="showEdit3()" onmouseout="hideEdit3()">
-              <div class="active" id="first">
+              <div href="https://ds-elements.netlify.app/data" class="active" id="first">
                   <input id="linked1" type="text" name="column1" value="New Page" class="linked" disabled>
                   <img class="icon" src="edit.png" id="img3">
               </div>
@@ -218,7 +221,7 @@ input{
           <tr>
             <td onmouseover="showEdit4()" onmouseout="hideEdit4()">
               <div class="active" id="first">
-                  <input id="linked1" type="text" name="column1" value="Link to New Page" class="linked" disabled>
+                  <input id="linked1" type="text" name="column1" value="Link to New Page" class="linked" disabled href="https://ds-elements.netlify.app/data">
                   <img class="icon" src="edit.png" id="img4">
               </div>
           </td>
