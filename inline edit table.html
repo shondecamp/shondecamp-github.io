@@ -1,0 +1,429 @@
+<html>
+<style>
+    table {
+  font-family: 'Open Sans';
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #414a56;
+}
+tr{
+    font-size: 16px;
+    height: 42px;
+    margin-left: 12px;
+}
+td, th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 0px;
+  height:42px;
+  color: #414a56;
+  padding: 0px;
+}
+
+    tr:nth-child(even) {
+  background-color: #F2F5F9;
+}
+form{
+    margin: 0;
+    padding:0;
+}
+table{
+    padding-left: 12px;
+}
+select {
+    appearance: none;
+    cursor:pointer;
+    font-family:'Open Sans';
+    font-size: 16px;
+    color:#414a56;
+    background: transparent;
+    border:transparent;
+    margin:0;
+    padding:0;
+    width: 100px;
+    height:30px;
+    outline:none;
+    border-radius: 6px;
+    position:relative;
+    left: 0px;
+    margin-right:12px;
+}
+input{
+    background: transparent;
+    border:transparent;
+    margin:0;
+    padding:0;
+    font-family:'Open Sans';
+    font-size: 16px;
+    color:#414a56;
+    height:30px;
+    outline:none;
+    width: calc(100% - 60px);
+}
+.input{
+    font-family:'Open Sans';
+    font-size: 16px;
+    color:#414a56;
+    background: transparent;
+    border:transparent;
+    margin:0;
+    padding:0px 12px 0px 0px;
+    width: 250px;
+    height:30px;
+    outline:none;
+    border-radius: 6px;
+    position:relative;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    position:relative;
+    cursor: text;
+}
+.gogo{
+    height:16px;
+    display:none;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+    z-index: 900;
+}
+.okgo{
+    height:16px;
+    display:none;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+}
+.active{
+    text-decoration:none;
+    margin-right: 24px;
+    cursor:pointer;
+    font-family:'Open Sans';
+    font-size: 16px;
+    background: transparent;
+    border:transparent;
+    margin:0;
+    padding:0px 12px;
+    width: 300px;
+    height:30px;
+    outline:none;
+    border-radius: 6px;
+    position:relative;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    position:relative;
+}
+.linked{
+    color:#014085;
+    cursor: pointer;
+}
+.icon{
+    height:16px;
+    visibility:hidden;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+}
+</style>
+<body>
+    <table>
+        <tr>
+          <th style="position:relative; left:12px;">Record</th>
+          <th>Contact</th>
+          <th>Manufacturer</th>
+        </tr>
+        <tr>
+          <td onmouseover="showEdit()" onmouseout="hideEdit()">
+            <div class="active" id="first">
+                <input id="linked1" type="text" name="column1" value="Link to New Page" class="linked" disabled>
+                <img id="check" class="okgo" src="check.png" onclick="hideButtons2()">
+                <img class="okgo" src="x.png" onclick="hideButtons2()">
+                <img onclick="enableEdit()" class="icon" src="edit.png" id="img">
+            </div>
+        </td>
+          <td onmouseover="showInput()" onmouseout="hideInput()">
+            <div id="fname" class="input" >
+                <input onClick="showButtons()" type="text"  name="fname" value="Sam Anderson" id="name">
+                <img onclick="hideButtons()" id="check2" class="gogo" src="check.png">
+                <img onclick="hideButtons()" class="gogo" src="x.png">
+            </div>
+        </td>
+            <td style="cursor:pointer;" onmouseover="showSelect()" onmouseout="hideSelect()">
+                <form action="/action_page.php">
+                    <label for="cars"></label>
+                        <select name="cars" id="cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td onmouseover="showEdit2()" onmouseout="hideEdit2()">
+              <div class="active" id="first">
+                  <input id="linked1" type="text" name="column1" value="Another Link to New Page" class="linked" disabled>
+                  <img class="icon" src="edit.png" id="img2">
+              </div>
+          </td>
+            <td onmouseover="showInput2()" onmouseout="hideInput2()">
+              <div id="fname2" class="input" >
+                  <input onClick="showButtons()" type="text"  name="fname" value="Patrick Diggle" id="name2">
+              </div>
+          </td>
+              <td style="cursor:pointer;" onmouseover="showSelect2()" onmouseout="hideSelect2()">
+                  <form action="/action_page.php">
+                      <label for="cars"></label>
+                          <select name="cars" id="cars2">
+                              <option value="audi">Audi</option>
+                              <option value="volvo">Volvo</option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                          </select>
+                  </form>
+              </td>
+          </tr>
+          <tr>
+            <td onmouseover="showEdit3()" onmouseout="hideEdit3()">
+              <div class="active" id="first">
+                  <input id="linked1" type="text" name="column1" value="New Page" class="linked" disabled>
+                  <img class="icon" src="edit.png" id="img3">
+              </div>
+          </td>
+            <td onmouseover="showInput3()" onmouseout="hideInput3()">
+              <div id="fname3" class="input" >
+                  <input onClick="showButtons()" type="text"  name="fname" value="Lucille Farnsworth" id="name3">
+              </div>
+          </td>
+              <td style="cursor:pointer;" onmouseover="showSelect3()" onmouseout="hideSelect3()">
+                  <form action="/action_page.php">
+                      <label for="cars"></label>
+                          <select name="cars" id="cars3">
+                              <option value="opel">Opel</option>
+                              <option value="volvo">Volvo</option>
+                              <option value="saab">Saab</option>
+                              <option value="audi">Audi</option>
+                          </select>
+                  </form>
+              </td>
+          </tr>
+          <tr>
+            <td onmouseover="showEdit4()" onmouseout="hideEdit4()">
+              <div class="active" id="first">
+                  <input id="linked1" type="text" name="column1" value="Link to New Page" class="linked" disabled>
+                  <img class="icon" src="edit.png" id="img4">
+              </div>
+          </td>
+            <td onmouseover="showInput4()" onmouseout="hideInput4()">
+              <div id="fname4" class="input" >
+                  <input onClick="showButtons()" type="text"  name="fname" value="Anna Delgado" id="name4">
+              </div>
+          </td>
+              <td style="cursor:pointer;" onmouseover="showSelect4()" onmouseout="hideSelect4()">
+                  <form action="/action_page.php">
+                      <label for="cars"></label>
+                          <select name="cars" id="cars4">
+                              <option value="volvo">Volvo</option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                              <option value="audi">Audi</option>
+                          </select>
+                  </form>
+              </td>
+          </tr>
+        
+      </table>
+<script>
+    function showEdit(){
+        document.getElementById("img").style.visibility = "visible";
+    }
+    function hideEdit(){
+        document.getElementById("img").style.visibility = "hidden";
+    }
+    function showEdit2(){
+        document.getElementById("img2").style.visibility = "visible";
+    }
+    function hideEdit2(){
+        document.getElementById("img2").style.visibility = "hidden";
+    }
+    function showEdit3(){
+        document.getElementById("img3").style.visibility = "visible";
+    }
+    function hideEdit3(){
+        document.getElementById("img3").style.visibility = "hidden";
+    }
+    function showEdit4(){
+        document.getElementById("img4").style.visibility = "visible";
+    }
+    function hideEdit4(){
+        document.getElementById("img4").style.visibility = "hidden";
+    }
+    function enableEdit(){
+        document.getElementById("linked1").disabled = false;
+        document.getElementById('linked1').select();
+        document.getElementById("img").style.display = "none";
+        document.getElementById("linked1").style.color = "#414a56";
+        document.getElementById("first").style. background = "white";
+        document.getElementById("first").style. appearance = 'auto';
+        document.getElementById("first").style.border = "1px solid grey";
+        document.getElementById("first").style.color = "#414a56";
+        var elements = document.getElementsByClassName('okgo');
+for(var i=0; i<elements.length; i++) { 
+  elements[i].style.display='block';
+  
+}
+    }
+    document.getElementById("name").addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("check2").click();
+  }
+});
+    document.getElementById("linked1").addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("check").click();
+  }
+});
+    function hideButtons2(){       
+    var elements = document.getElementsByClassName('okgo');
+for(var i=0; i<elements.length; i++) { 
+  elements[i].style.display='none';}
+  document.getElementById("linked1").disabled = true;
+  document.getElementById("img").style.display = "initial";
+        document.getElementById("linked1").style.color = "#014085";
+        document.getElementById('linked1').blur();
+
+        document.getElementById("first").style. background = "transparent";
+        document.getElementById("first").style. appearance = 'none';
+        document.getElementById("first").style.border = "transparent";
+        
+}
+    function showSelect(){
+        document.getElementById("cars").style. background = "white";
+        document.getElementById("cars").style. appearance = 'auto';
+        document.getElementById("cars").style.border = "1px solid grey";
+        document.getElementById("cars").style.left = "-12px";
+        document.getElementById("cars").style.paddingLeft = "12px";
+    }
+    function hideSelect(){
+        document.getElementById("cars").style. background = "transparent";
+        document.getElementById("cars").style. appearance = 'none';
+        document.getElementById("cars").style.border = "transparent";
+        document.getElementById("cars").style.left = "0px";
+        document.getElementById("cars").style.paddingLeft = "0px";
+    }
+    function showSelect2(){
+        document.getElementById("cars2").style. background = "white";
+        document.getElementById("cars2").style. appearance = 'auto';
+        document.getElementById("cars2").style.border = "1px solid grey";
+        document.getElementById("cars2").style.left = "-12px";
+        document.getElementById("cars2").style.paddingLeft = "12px";
+    }
+    function hideSelect2(){
+        document.getElementById("cars2").style. background = "transparent";
+        document.getElementById("cars2").style. appearance = 'none';
+        document.getElementById("cars2").style.border = "transparent";
+        document.getElementById("cars2").style.left = "0px";
+        document.getElementById("cars2").style.paddingLeft = "0px";
+    }
+    function showSelect3(){
+        document.getElementById("cars3").style. background = "white";
+        document.getElementById("cars3").style. appearance = 'auto';
+        document.getElementById("cars3").style.border = "1px solid grey";
+        document.getElementById("cars3").style.left = "-12px";
+        document.getElementById("cars3").style.paddingLeft = "12px";
+    }
+    function hideSelect3(){
+        document.getElementById("cars3").style. background = "transparent";
+        document.getElementById("cars3").style. appearance = 'none';
+        document.getElementById("cars3").style.border = "transparent";
+        document.getElementById("cars3").style.left = "0px";
+        document.getElementById("cars3").style.paddingLeft = "0px";
+    }
+    function showSelect4(){
+        document.getElementById("cars4").style. background = "white";
+        document.getElementById("cars4").style. appearance = 'auto';
+        document.getElementById("cars4").style.border = "1px solid grey";
+        document.getElementById("cars4").style.left = "-12px";
+        document.getElementById("cars4").style.paddingLeft = "12px";
+    }
+    function hideSelect4(){
+        document.getElementById("cars4").style. background = "transparent";
+        document.getElementById("cars4").style. appearance = 'none';
+        document.getElementById("cars4").style.border = "transparent";
+        document.getElementById("cars4").style.left = "0px";
+        document.getElementById("cars4").style.paddingLeft = "0px";
+    }
+    function showInput(){
+        document.getElementById("fname").style. background = "white";
+        document.getElementById("fname").style. appearance = 'auto';
+        document.getElementById("fname").style.border = "1px solid grey";
+        document.getElementById("fname").style.left = "-12px";
+        document.getElementById("fname").style.paddingLeft = "12px";
+    }
+    function hideInput(){
+        document.getElementById("fname").style. background = "transparent";
+        document.getElementById("fname").style. appearance = 'none';
+        document.getElementById("fname").style.border = "transparent";
+    }
+    function showInput2(){
+        document.getElementById("fname2").style. background = "white";
+        document.getElementById("fname2").style. appearance = 'auto';
+        document.getElementById("fname2").style.border = "1px solid grey";
+        document.getElementById("fname2").style.left = "-12px";
+        document.getElementById("fname2").style.paddingLeft = "12px";
+    }
+    function hideInput2(){
+        document.getElementById("fname2").style. background = "transparent";
+        document.getElementById("fname2").style. appearance = 'none';
+        document.getElementById("fname2").style.border = "transparent";
+    }
+    function showInput3(){
+        document.getElementById("fname3").style. background = "white";
+        document.getElementById("fname3").style. appearance = 'auto';
+        document.getElementById("fname3").style.border = "1px solid grey";
+        document.getElementById("fname3").style.left = "-12px";
+        document.getElementById("fname3").style.paddingLeft = "12px";
+    }
+    function hideInput3(){
+        document.getElementById("fname3").style. background = "transparent";
+        document.getElementById("fname3").style. appearance = 'none';
+        document.getElementById("fname3").style.border = "transparent";
+    }
+    function showInput4(){
+        document.getElementById("fname4").style. background = "white";
+        document.getElementById("fname4").style. appearance = 'auto';
+        document.getElementById("fname4").style.border = "1px solid grey";
+        document.getElementById("fname4").style.left = "-12px";
+        document.getElementById("fname4").style.paddingLeft = "12px";
+    }
+    function hideInput4(){
+        document.getElementById("fname4").style. background = "transparent";
+        document.getElementById("fname4").style. appearance = 'none';
+        document.getElementById("fname4").style.border = "transparent";
+    }
+    function showButtons(){
+        var elements = document.getElementsByClassName('gogo');
+for(var i=0; i<elements.length; i++) { 
+  elements[i].style.display='block';
+   document.getElementById('name').select();
+}}
+function hideButtons(){
+    var elements = document.getElementsByClassName('gogo');
+for(var i=0; i<elements.length; i++) { 
+  elements[i].style.display='none';}
+document.getElementById('name').blur();
+}
+    
+</script>
+</body>
+</html>
