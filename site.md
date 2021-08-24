@@ -12,6 +12,9 @@
     html, body{
         overflow-x: hidden;
     }
+    h1 a{
+    display: none;
+    }
     .container-lg {
   max-width: 5000px;
   margin-right: 0;
