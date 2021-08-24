@@ -2,9 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-        </style>
+
         <style>
    
     @media only screen and (min-width: 1801px) {
