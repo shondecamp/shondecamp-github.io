@@ -8,6 +8,13 @@
     html, body{
         overflow-x: hidden;
     }
+     @font-face{
+        font-family: "Open Sans";
+        src: url("OpenSans-SemiBold.ttf");
+    }
+    body{
+        font-family: "Open Sans";
+    }
     @media only screen and (min-width: 1801px) {
         body{
             font-family:'Open Sans';
