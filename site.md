@@ -12,6 +12,19 @@
     html, body{
         overflow-x: hidden;
     }
+    .container-lg {
+  max-width: 5000px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.px-3 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.my-5 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
     @media only screen and (min-width: 1801px) {
         body{
             font-family:'Open Sans';
